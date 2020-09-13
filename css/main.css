@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#Arrow2, #Arrow {
+	position: fixed;
+	width: 66px;
+	margin-left: -33px;
+}
+#Arrow2 {top: 0;left: 50%;}
+#Arrow {bottom: 0;left: 50%; transform: rotate(180deg);}
+#Menu {
+	position: fixed;
+	width: 50px;
+	top: 10px;
+	left: 10px;
+}
+#Call {
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+}
+
+.main {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../images/drawing.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.main1, .main2 {
+	display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    justify-content: center;
+}
+.main1 { align-items: flex-end; }
+.main2 { align-items: center; }
+
+
+/* for desktop only 
+@media only screen and (min-width: 600px) {
+
+}*/

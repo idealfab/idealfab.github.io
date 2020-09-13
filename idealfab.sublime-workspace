@@ -1,0 +1,485 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"w3-co",
+				"w3-container\t(w3.css)"
+			],
+			[
+				"w3-bl",
+				"w3-black\t(w3.css)"
+			],
+			[
+				"w3-text",
+				"w3-text-white\t(w3.css)"
+			],
+			[
+				"fl",
+				"flex-end\talign-items"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"z",
+				"z-10 \tTailwind Class"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"w3",
+				"w3-center\tabc"
+			],
+			[
+				"tab",
+				"table-cell\tdisplay"
+			],
+			[
+				"jus",
+				"justify-content\tproperty"
+			],
+			[
+				"co",
+				"cover\tbackground-size"
+			],
+			[
+				"bac",
+				"background-size\tproperty"
+			],
+			[
+				"ba",
+				"background-position\tproperty"
+			],
+			[
+				"no",
+				"no-repeat\tbackground-repeat"
+			],
+			[
+				"background",
+				"background-repeat\tproperty"
+			],
+			[
+				"back",
+				"background-position\tproperty"
+			],
+			[
+				"backgrou",
+				"background-image\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"he",
+				"height\tproperty"
+			],
+			[
+				"style",
+				"style\tAttr"
+			],
+			[
+				"ht",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"im",
+				"imgResize"
+			],
+			[
+				"la",
+				"lazy"
+			],
+			[
+				"prod",
+				"product2"
+			],
+			[
+				"ima",
+				"images"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"header",
+				"header-mobile"
+			],
+			[
+				"max",
+				"maxHeight\t = 'inherit' Style CSS"
+			],
+			[
+				"getEl",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"remo",
+				"removeColor"
+			],
+			[
+				"bl",
+				"Black"
+			],
+			[
+				"Mas",
+				"masterbatches"
+			],
+			[
+				"Gl",
+				"globusfaridabad"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1455,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 767,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "* {"
+			}
+		},
+		{
+			"file": "css/w3.css",
+			"settings":
+			{
+				"buffer_size": 23127,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"live",
+				"LiveReload: Self test"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"git ",
+				"Git: Push"
+			],
+			[
+				"Package Control: git",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/sameer/github/idealfab.github.io"
+	],
+	"file_history":
+	[
+		"/home/sameer/.config/sublime-text-3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
+		"/home/sameer/.config/sublime-text-3/Packages/User/All Autocomplete.sublime-settings",
+		"/home/sameer/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/sameer/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/sameer/.config/sublime-text-3/Packages/BrowserIntegration/BrowserIntegration.sublime-settings",
+		"/home/sameer/github/idealfab.github.io/index.html",
+		"/home/sameer/github/parallax.jsSample/index.html",
+		"/home/sameer/github/parallax.jsSample/index.js",
+		"/home/sameer/github/react/myfirstreact/src/index.js",
+		"/home/sameer/github/react/myfirstreact/src/index.html",
+		"/home/sameer/github/react/myfirstreact/src/App.js",
+		"/home/sameer/github/globusindia.github.io/index (copy).html",
+		"/home/sameer/github/globusindia.github.io/js/my.js",
+		"/home/sameer/github/globusindia.github.io/css/my.css",
+		"/home/sameer/github/globusindia.github.io/index.html",
+		"/home/sameer/github/sameer55chauhan.github.io/css/my.css",
+		"/home/sameer/github/sameer55chauhan.github.io/index.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ul",
+			"\"></"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/sameer/github/idealfab.github.io"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								666,
+								666
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"auto_name": "* {",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/w3.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 120.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 120.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
