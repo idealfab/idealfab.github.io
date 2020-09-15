@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="177.9738mm"
+   height="103.2286mm"
+   viewBox="0 0 177.9738 103.2286"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter94">
+      <feMorphology
+         result="result1"
+         in="SourceAlpha"
+         operator="dilate"
+         radius="3.6"
+         id="feMorphology82" />
+      <feGaussianBlur
+         stdDeviation="3.6"
+         in="result1"
+         result="result0"
+         id="feGaussianBlur84" />
+      <feDiffuseLighting
+         surfaceScale="-5"
+         id="feDiffuseLighting88">
+        <feDistantLight
+           elevation="45"
+           azimuth="225"
+           id="feDistantLight86" />
+      </feDiffuseLighting>
+      <feComposite
+         in2="result0"
+         operator="in"
+         result="result91"
+         id="feComposite90" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result91"
+         id="feComposite92" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-13.493804,-50.467814)">
+    <g
+       id="g18"
+       transform="matrix(0,0.63787762,-0.63787762,0,178.64294,55.269613)"
+       style="filter:url(#filter94)">
+      <rect
+         style="fill:#ffffff;stroke-width:0.975;stroke-linecap:round"
+         id="rect10"
+         width="175.27289"
+         height="37.177368"
+         x="-85.647636"
+         y="83.208679"
+         ry="18.588684"
+         transform="rotate(-45)" />
+      <rect
+         style="fill:#ffffff;stroke-width:0.975;stroke-linecap:round"
+         id="rect14"
+         width="175.27289"
+         height="37.177368"
+         x="83.208679"
+         y="48.470268"
+         ry="18.588684"
+         transform="rotate(45)" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+@import "_w3.scss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+
+.my-playFair {font-family: 'Playfair Display SC', serif;}
+.my-gold { background-color: rgb(237,205,33)!important; color: black!important; }
+.new { @extend .w3-container; @extend .my-gold; @extend .my-playFair; }
+
+@media only screen and (min-width: 600px) {
+	color: inherit;
+}
