@@ -4,6 +4,98 @@
 		"selected_items":
 		[
 			[
+				"spa",
+				"space-around\tjustify-content"
+			],
+			[
+				"fl",
+				"flex\tdisplay"
+			],
+			[
+				"w3-text-bl",
+				"w3-text-black\t(w3.css)"
+			],
+			[
+				"w3-rig",
+				"w3-right-align\t(w3.css)"
+			],
+			[
+				"w3-cen",
+				"w3-centered\t(w3.css)"
+			],
+			[
+				"s",
+				"span\tabc"
+			],
+			[
+				"w3-bar",
+				"w3-bar-item\tabc"
+			],
+			[
+				"vid",
+				"vidpause\t(index.html)"
+			],
+			[
+				"background",
+				"background-size\tabc"
+			],
+			[
+				"w3-bor",
+				"w3-border-0\t(w3.css)"
+			],
+			[
+				"w3-hov",
+				"w3-hover-none\t(w3.css)"
+			],
+			[
+				"fa-",
+				"fa-play-circle\tabc"
+			],
+			[
+				"fa-p",
+				"fa-play-circle\t(index.html)"
+			],
+			[
+				"pause",
+				"pauseButton_icon\tabc"
+			],
+			[
+				"remo",
+				"remove\t(): void Element"
+			],
+			[
+				"class",
+				"classList\tabc"
+			],
+			[
+				"getE",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"file",
+				"file.webp\t(index.html)"
+			],
+			[
+				"tra",
+				"translate\t(w3.css)"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"pre",
+				"property\tabc"
+			],
+			[
+				"auto",
+				"autoplay\tAttr"
+			],
+			[
+				"bac",
+				"background-color\t(w3.css)"
+			],
+			[
 				"backgrou",
 				"background-color\tproperty"
 			],
@@ -22,10 +114,6 @@
 			[
 				"w3-text",
 				"w3-text-white\t(w3.css)"
-			],
-			[
-				"fl",
-				"flex-end\talign-items"
 			],
 			[
 				"alig",
@@ -56,10 +144,6 @@
 				"cover\tbackground-size"
 			],
 			[
-				"bac",
-				"background-size\tproperty"
-			],
-			[
 				"ba",
 				"background-position\tproperty"
 			],
@@ -68,16 +152,8 @@
 				"no-repeat\tbackground-repeat"
 			],
 			[
-				"background",
-				"background-repeat\tproperty"
-			],
-			[
 				"back",
 				"background-position\tproperty"
-			],
-			[
-				"min",
-				"min-width\tproperty"
 			],
 			[
 				"sc",
@@ -132,10 +208,6 @@
 				"getElementById\t( elementId: DOMString ): Element Document"
 			],
 			[
-				"remo",
-				"removeColor"
-			],
-			[
 				"bl",
 				"Black"
 			],
@@ -159,7 +231,25 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 722,
+				"buffer_size": 1982,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/my.js",
+			"settings":
+			{
+				"buffer_size": 172,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.scss",
+			"settings":
+			{
+				"buffer_size": 981,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -172,17 +262,7 @@
 			"settings":
 			{
 				"buffer_size": 23127,
-				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/main.scss",
-			"settings":
-			{
-				"buffer_size": 104,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -245,11 +325,11 @@
 		"/home/sameer/github/idealfab.github.io",
 		"/home/sameer/github/idealfab.github.io/asset",
 		"/home/sameer/github/idealfab.github.io/css",
-		"/home/sameer/github/idealfab.github.io/css/.sass-cache",
-		"/home/sameer/github/idealfab.github.io/css/.sass-cache/c01a7ffb709bc53ab1f866252ae7077ba19cd656"
+		"/home/sameer/github/idealfab.github.io/js"
 	],
 	"file_history":
 	[
+		"/home/sameer/github/idealfab.github.io/js/video.js",
 		"/home/sameer/github/idealfab.github.io/css/main.scss",
 		"/home/sameer/github/idealfab.github.io/css/main.css",
 		"/home/sameer/.config/sublime-text-3/Packages/All Autocomplete/All Autocomplete.sublime-settings",
@@ -286,6 +366,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			") ",
 			"ul",
 			"\"></"
 		],
@@ -320,15 +401,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 722,
+						"buffer_size": 1982,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								691,
-								691
+								816,
+								816
 							]
 						],
 						"settings":
@@ -337,7 +418,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 102.0,
+						"translation.y": 255.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -345,24 +426,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/w3.css",
+					"file": "js/my.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 23127,
+						"buffer_size": 172,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								137,
+								137
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -377,15 +458,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 104,
+						"buffer_size": 981,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								97,
-								97
+								314,
+								314
 							]
 						],
 						"settings":
@@ -397,6 +478,34 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/w3.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16081,
+								16081
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1530.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -486,7 +595,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 197.0,
 	"status_bar_visible": true,
 	"template_settings":

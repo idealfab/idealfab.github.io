@@ -1,10 +1,44 @@
-@import "_w3.scss";
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+@mixin transform($property) {
+	-ms-transform: $property;
+	-webkit-transform: $property;
+	-moz-transform: $property;
+	transform: $property;
+}
 
-.my-playFair {font-family: 'Playfair Display SC', serif;}
-.my-gold { background-color: rgb(237,205,33)!important; color: black!important; }
-.new { @extend .w3-container; @extend .my-gold; @extend .my-playFair; }
+@mixin my-gold { background-color: rgb(237,205,33)!important; color: black!important; }
+
+#top {
+	display: flex;
+	width: 100vw;
+	height: 7vh;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* bg video */
+video {display: block;}
+@media screen and (max-device-width: 800px) {
+    html {
+         background: url(../asset/file.webp) #000 no-repeat center center fixed;
+         background-size: cover;
+    }
+    #bgvid, #vidpause {display: none;}
+}
+#bgvid {
+	position: fixed;
+	top: 50%; left:50%;
+	min-width:100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	@include transform(translateX(-50%) translateY(-50%));
+	background: url(../asset/file.webp) no-repeat;
+	background-size: cover;
+}
+video#bgvid {transition: 1s opacity;}
+.stopfade { opacity: 0.5; }
 
 @media only screen and (min-width: 600px) {
-	color: inherit;
+	.my-gold{}
 }

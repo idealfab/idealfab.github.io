@@ -5,10 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ideal Fab & Constructions</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/w3.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+
+		.my-playFair {font-family: 'Playfair Display SC', serif;}
+	</style>
 </head>
 <body><!--rgb(237,205,33)-->
-	
+	<header id="top" class="w3-bar w3-text-white">
+		<button class="w3-bar-item w3-button w3-teal w3-xlarge" onclick="w3_open()"><i class="far fa-compass"></i></button>
+		<span class="w3-sidebar w3-bar-block w3-center w3-text-black" id="mySidebar" style="display: none;">
+			<button onclick="w3_close()" class="w3-bar-item w3-button w3-large">&times;</button>
+			<a href="#" class="w3-bar-item w3-button">Link 1</a>
+  			<a href="#" class="w3-bar-item w3-button">Link 2</a>
+  			<a href="#" class="w3-bar-item w3-button">Link 3</a>
+		</span>
+		<span class="w3-bar-item">
+			<a href="#">link 1</a>
+			<a href="#">link 1</a>
+			<a href="#">link 1</a>
+		</span>
+		<i class="my-playFair w3-right-align w3-xxlarge">IFC</i>
+	</header>
 
+	<!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+	<video playsinline autoplay muted loop poster="asset/file.webp" id="bgvid">
+		<source src="asset/file.mp4" type="video/mp4">
+	</video>
+	<button id="vidpause" class="w3-button w3-transparent w3-text-white"><i class="far fa-pause-circle" id="vidpause-icon"></i></button>
+	<script src="js/video.js"></script>
+
+	
+	<div class="w3-white">
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/my.js"></script>
 </body>
 </html>
