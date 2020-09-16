@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"w3-x",
+				"w3-xxxlarge\t(w3.css)"
+			],
+			[
+				"font",
+				"font-weight\tabc"
+			],
+			[
+				"w3-animate-",
+				"w3-animate-top\t(w3.css)"
+			],
+			[
+				"r",
+				"rgba\tabc"
+			],
+			[
+				"eas",
+				"ease-in-out\t(w3.css)"
+			],
+			[
+				"tr",
+				"transition\tabc"
+			],
+			[
+				"rg",
+				"rgb(237,205,33\t(index.html)"
+			],
+			[
+				"bord",
+				"border-bottom\t(w3.css)"
+			],
+			[
+				"my",
+				"my-hover-gold\t(main.scss)"
+			],
+			[
+				"w3-tex",
+				"w3-text-white\tabc"
+			],
+			[
+				"w3-ho",
+				"w3-hover-white\t(w3.css)"
+			],
+			[
+				"w3-bott",
+				"w3-bottombar\t(w3.css)"
+			],
+			[
+				"top",
+				"top_Links\tabc"
+			],
+			[
+				"my-hov",
+				"my-hover-text-gold\t(main.scss)"
+			],
+			[
 				"w3-hover",
 				"w3-hover-none\tabc"
 			],
@@ -20,24 +76,12 @@
 				"background-color\tabc"
 			],
 			[
-				"rg",
-				"rgba()\tbackground-color"
-			],
-			[
-				"my",
-				"my-transition\tabc"
-			],
-			[
 				"trasn",
 				"transition\tabc"
 			],
 			[
 				"m",
 				"mixin\tabc"
-			],
-			[
-				"top",
-				"top_Button\tabc"
 			],
 			[
 				"my-",
@@ -287,7 +331,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2050,
+				"buffer_size": 2679,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -296,7 +340,7 @@
 			"file": "css/main.scss",
 			"settings":
 			{
-				"buffer_size": 1419,
+				"buffer_size": 1915,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -457,15 +501,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2050,
+						"buffer_size": 2679,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								898,
-								898
+								2517,
+								2517
 							]
 						],
 						"settings":
@@ -474,7 +518,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 306.0,
+						"translation.y": 1071.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -486,15 +530,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1419,
+						"buffer_size": 1915,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1225,
-								1225
+								545,
+								545
 							]
 						],
 						"settings":
@@ -502,7 +546,7 @@
 							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 306.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
