@@ -4,8 +4,84 @@
 		"selected_items":
 		[
 			[
+				"w3-hover",
+				"w3-hover-none\tabc"
+			],
+			[
+				"bo",
+				"border\t(w3.css)"
+			],
+			[
+				"vid",
+				"vidpause\tabc"
+			],
+			[
+				"ba",
+				"background-color\tabc"
+			],
+			[
+				"rg",
+				"rgba()\tbackground-color"
+			],
+			[
+				"my",
+				"my-transition\tabc"
+			],
+			[
+				"trasn",
+				"transition\tabc"
+			],
+			[
+				"m",
+				"mixin\tabc"
+			],
+			[
+				"top",
+				"top_Button\tabc"
+			],
+			[
+				"my-",
+				"my-hover-text-gold\tabc"
+			],
+			[
+				"my-g",
+				"my-hover-text-gold\t(main.scss)"
+			],
+			[
+				"rgba",
+				"rgba()\tbackground-color"
+			],
+			[
+				"bac",
+				"background-color\tabc"
+			],
+			[
+				"fle",
+				"flex-container\tabc"
+			],
+			[
+				"align-",
+				"align-items\tproperty"
+			],
+			[
 				"spa",
-				"space-around\tjustify-content"
+				"space-between\tjustify-content"
+			],
+			[
+				"tra",
+				"translate\t(w3.css)"
+			],
+			[
+				"alig",
+				"align-content\tproperty"
+			],
+			[
+				"re",
+				"relative\t(w3.css)"
+			],
+			[
+				"top_",
+				"top_text\t(index.html)"
 			],
 			[
 				"fl",
@@ -30,10 +106,6 @@
 			[
 				"w3-bar",
 				"w3-bar-item\tabc"
-			],
-			[
-				"vid",
-				"vidpause\t(index.html)"
 			],
 			[
 				"background",
@@ -76,10 +148,6 @@
 				"file.webp\t(index.html)"
 			],
 			[
-				"tra",
-				"translate\t(w3.css)"
-			],
-			[
 				"min",
 				"min-height\tproperty"
 			],
@@ -90,10 +158,6 @@
 			[
 				"auto",
 				"autoplay\tAttr"
-			],
-			[
-				"bac",
-				"background-color\t(w3.css)"
 			],
 			[
 				"backgrou",
@@ -114,10 +178,6 @@
 			[
 				"w3-text",
 				"w3-text-white\t(w3.css)"
-			],
-			[
-				"alig",
-				"align-items\tproperty"
 			],
 			[
 				"z",
@@ -142,10 +202,6 @@
 			[
 				"co",
 				"cover\tbackground-size"
-			],
-			[
-				"ba",
-				"background-position\tproperty"
 			],
 			[
 				"no",
@@ -231,16 +287,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1982,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/my.js",
-			"settings":
-			{
-				"buffer_size": 172,
+				"buffer_size": 2050,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -249,7 +296,16 @@
 			"file": "css/main.scss",
 			"settings":
 			{
-				"buffer_size": 981,
+				"buffer_size": 1419,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/my.js",
+			"settings":
+			{
+				"buffer_size": 235,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -392,7 +448,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -401,15 +457,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1982,
+						"buffer_size": 2050,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								816,
-								816
+								898,
+								898
 							]
 						],
 						"settings":
@@ -418,27 +474,55 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 255.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "js/my.js",
+					"file": "css/main.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 172,
+						"buffer_size": 1419,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								137,
-								137
+								1225,
+								1225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/my.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
 							]
 						],
 						"settings":
@@ -449,35 +533,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/main.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 981,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								314,
-								314
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -505,7 +561,7 @@
 						"translation.y": 1530.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

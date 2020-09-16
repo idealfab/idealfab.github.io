@@ -5,15 +5,21 @@
 	transform: $property;
 }
 
-@mixin my-gold { background-color: rgb(237,205,33)!important; color: black!important; }
-
-#top {
-	display: flex;
-	width: 100vw;
-	height: 7vh;
-	justify-content: space-around;
-	align-items: center;
+.my-gold, .my-hover-gold:hover { background-color: rgb(237,205,33)!important; color: black!important; }
+.my-text-gold, .my-hover-text-gold:hover {color: rgb(237,205,33)!important;}
+@mixin my-transition($time: 0.5s) {
+	transition: ease $time;
 }
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(#000, 0.2);
+}
+header a {@extend .my-hover-text-gold; @include my-transition; padding: 5px;}
+#top_Button {@extend .my-gold; @include my-transition;}
+#top_Button:hover {background-color: black!important; color:rgb(237,205,33)!important; @include my-transition;}
 
 /* bg video */
 video {display: block;}
@@ -36,8 +42,9 @@ video {display: block;}
 	background: url(../asset/file.webp) no-repeat;
 	background-size: cover;
 }
+#vidpause{ margin-top:3%;}
 video#bgvid {transition: 1s opacity;}
-.stopfade { opacity: 0.5; }
+.stopfade { opacity: 0.7;}
 
 @media only screen and (min-width: 600px) {
 	.my-gold{}

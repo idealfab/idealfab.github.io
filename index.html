@@ -14,27 +14,32 @@
 	</style>
 </head>
 <body><!--rgb(237,205,33)-->
-	<header id="top" class="w3-bar w3-text-white">
-		<button class="w3-bar-item w3-button w3-teal w3-xlarge" onclick="w3_open()"><i class="far fa-compass"></i></button>
-		<span class="w3-sidebar w3-bar-block w3-center w3-text-black" id="mySidebar" style="display: none;">
-			<button onclick="w3_close()" class="w3-bar-item w3-button w3-large">&times;</button>
-			<a href="#" class="w3-bar-item w3-button">Link 1</a>
-  			<a href="#" class="w3-bar-item w3-button">Link 2</a>
-  			<a href="#" class="w3-bar-item w3-button">Link 3</a>
-		</span>
-		<span class="w3-bar-item">
-			<a href="#">link 1</a>
-			<a href="#">link 1</a>
-			<a href="#">link 1</a>
-		</span>
-		<i class="my-playFair w3-right-align w3-xxlarge">IFC</i>
+	
+	<header class="w3-text-white">
+		<div>
+			<button class="w3-button w3-xxlarge" onclick="w3_open()" id="top_Button"><i class="far fa-compass"></i></button>
+		</div>
+		<div>
+				<a href="#" class="w3-button">link 1</a>
+				<a href="#">link 1</a>
+				<a href="#">link 1</a>
+		</div>
+		<div class="w3-container">
+			<i class="my-playFair w3-xxlarge" id="top_text">IFC</i>
+		</div>
 	</header>
+	<span class="w3-sidebar w3-bar-block w3-center w3-text-black" id="mySidebar" style="display: none;" >
+				<button onclick="w3_close()" class="w3-bar-item w3-button w3-large">&times;</button>
+				<a href="#" class="w3-bar-item w3-button">Link 1</a>
+	  			<a href="#" class="w3-bar-item w3-button">Link 2</a>
+	  			<a href="#" class="w3-bar-item w3-button">Link 3</a>
+			</span>
 
 	<!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
 	<video playsinline autoplay muted loop poster="asset/file.webp" id="bgvid">
 		<source src="asset/file.mp4" type="video/mp4">
 	</video>
-	<button id="vidpause" class="w3-button w3-transparent w3-text-white"><i class="far fa-pause-circle" id="vidpause-icon"></i></button>
+	<button id="vidpause" class="w3-button w3-transparent w3-text-white w3-hover-none"><i class="w3-xxlarge far fa-pause-circle" id="vidpause-icon"></i></button>
 	<script src="js/video.js"></script>
 
 	
