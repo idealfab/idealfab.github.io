@@ -4,27 +4,33 @@
 	-moz-transform: $property;
 	transform: $property;
 }
-
-.my-gold, .my-hover-gold:hover { background-color: rgb(237,205,33)!important; color: black!important; }
-.my-text-gold, .my-hover-text-gold:hover {color: rgb(237,205,33)!important;}
 @mixin my-transition($time: 0.5s) {
 	transition: ease $time;
 }
+@mixin flexbox($justifyContent: center, $alignItems: center){
+	display: flex;
+	justify-content: $justifyContent;
+	align-items: $alignItems;
+}
+
+.my-gold, .my-hover-gold:hover { background-color: rgb(237,205,33)!important; color: black!important; }
+.my-text-gold, .my-hover-text-gold:hover {color: rgb(237,205,33)!important;}
+.my-text-royalBlue, .my-hover-text-royalBlue:hover {color: rgb(77,118,253)!important; border-color:rgb(77,118,253)!important;}
+.my-grey, .my-hover-grey:hover { background-color: rgb(241,242,247)!important; }
 
 body{
-	font-family: 'Quicksand', sans-serif;
+	font-family: sans-serif;
 	font-size: 20px;
-	font-weight:650;
+	font-weight:500;
 }
-h1{font-size:4rem;}
-h2{font-size:3rem;font-family: 'Quicksand', sans-serif;}
+h1,h2,h3,h4,h5,h6{font-weight:750;}
+h1{font-size:3rem;}
+h2{font-size:2rem;font-family: serif;}
 
 header {
-	display: flex;
+	@include flexbox(space-between);
 	height: 10vh;
-	justify-content: space-between;
-	align-items: center;
-	background-color: rgba(#000, 0.7);
+	background-color: rgba(#000, 0.3);
 }
 #top_Links { display: none; }
 #top_Button {position: fixed;top: 0;left: 0;height: 10vh; @extend .my-gold; @include my-transition;}
@@ -34,13 +40,10 @@ a { padding: 5px;}
 a:hover {border-bottom: solid rgb(237,205,33);}
 
 #first{
-	display: flex;
+	@include flexbox;
 	width: 100%;
 	height: 90vh;
-	background-color: rgba(#000, 0.5);
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	text-align: center;
 }
 
@@ -69,6 +72,35 @@ video {display: block;}
 video#bgvid {transition: 1s opacity;}
 .stopfade { opacity: 0.7;}
 
+#timeline {
+	width: 100vw;
+	height: 100vh;
+	#timeline-header {
+		@include flexbox;
+		height: 16vh;
+		text-align: center;
+		div:nth-child(1) {
+			min-width: 50%;
+			overflow: hidden;
+		}
+	}
+	#timeline1 {
+		div{
+			@include flexbox;
+			height: 42vh;
+		}
+		div:first-child img {width: 90vw;}
+		div:last-child img {width: 90vw;}
+	}
+}
+
 @media only screen and (min-width: 600px) {
+	#timeline{
+		#timeline1{
+			div{ height: 84vh; }
+			div:first-child img {width: 35vw;}
+			div:last-child img {width: 45vw;}
+		}
+	}
 	#top_Links {display: inline;}
 }

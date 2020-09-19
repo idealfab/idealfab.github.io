@@ -4,6 +4,98 @@
 		"selected_items":
 		[
 			[
+				"tr",
+				"translate\t(w3.css)"
+			],
+			[
+				"tim",
+				"timeline1\tabc"
+			],
+			[
+				"fl",
+				"flexbox\tabc"
+			],
+			[
+				"time",
+				"timeline1\t(index.html)"
+			],
+			[
+				"w3-cen",
+				"w3-center\tabc"
+			],
+			[
+				"w3-r",
+				"w3-row\t(w3.css)"
+			],
+			[
+				"di",
+				"div\tabc"
+			],
+			[
+				"un",
+				"unset\theight"
+			],
+			[
+				"ro",
+				"row\tflex-direction"
+			],
+			[
+				"fle",
+				"flex-direction\tabc"
+			],
+			[
+				"col",
+				"column\tabc"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"w3-rou",
+				"w3-round-medium\t(w3.css)"
+			],
+			[
+				"my-g",
+				"my-grey\t(main.scss)"
+			],
+			[
+				"r",
+				"rgb\tabc"
+			],
+			[
+				"rgb",
+				"rgb()\tborder-color"
+			],
+			[
+				"my-te",
+				"my-text-royalBlue\t(main.scss)"
+			],
+			[
+				"rg",
+				"rgb\tabc"
+			],
+			[
+				"w3-padd",
+				"w3-padding-large\t(w3.css)"
+			],
+			[
+				"timel",
+				"timeline-header\t(index.html)"
+			],
+			[
+				"al",
+				"alignItems\tabc"
+			],
+			[
+				"ju",
+				"justifyContent\tabc"
+			],
+			[
+				"ser",
+				"sans-serif\t(w3.css)"
+			],
+			[
 				"w3-x",
 				"w3-xxxlarge\t(w3.css)"
 			],
@@ -16,20 +108,8 @@
 				"w3-animate-top\t(w3.css)"
 			],
 			[
-				"r",
-				"rgba\tabc"
-			],
-			[
 				"eas",
 				"ease-in-out\t(w3.css)"
-			],
-			[
-				"tr",
-				"transition\tabc"
-			],
-			[
-				"rg",
-				"rgb(237,205,33\t(index.html)"
 			],
 			[
 				"bord",
@@ -88,20 +168,12 @@
 				"my-hover-text-gold\tabc"
 			],
 			[
-				"my-g",
-				"my-hover-text-gold\t(main.scss)"
-			],
-			[
 				"rgba",
 				"rgba()\tbackground-color"
 			],
 			[
 				"bac",
 				"background-color\tabc"
-			],
-			[
-				"fle",
-				"flex-container\tabc"
 			],
 			[
 				"align-",
@@ -128,20 +200,12 @@
 				"top_text\t(index.html)"
 			],
 			[
-				"fl",
-				"flex\tdisplay"
-			],
-			[
 				"w3-text-bl",
 				"w3-text-black\t(w3.css)"
 			],
 			[
 				"w3-rig",
 				"w3-right-align\t(w3.css)"
-			],
-			[
-				"w3-cen",
-				"w3-centered\t(w3.css)"
 			],
 			[
 				"s",
@@ -190,10 +254,6 @@
 			[
 				"file",
 				"file.webp\t(index.html)"
-			],
-			[
-				"min",
-				"min-height\tproperty"
 			],
 			[
 				"pre",
@@ -318,10 +378,6 @@
 			[
 				"Gl",
 				"globusfaridabad"
-			],
-			[
-				"di",
-				"div\tTag"
 			]
 		]
 	},
@@ -331,7 +387,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2679,
+				"buffer_size": 3064,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -340,7 +396,7 @@
 			"file": "css/main.scss",
 			"settings":
 			{
-				"buffer_size": 1915,
+				"buffer_size": 2595,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -501,15 +557,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2679,
+						"buffer_size": 3064,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2517,
-								2517
+								2763,
+								2763
 							]
 						],
 						"settings":
@@ -518,7 +574,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1071.0,
+						"translation.y": 1328.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -530,15 +586,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1915,
+						"buffer_size": 2595,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								545,
-								545
+								2465,
+								2465
 							]
 						],
 						"settings":
@@ -546,7 +602,7 @@
 							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1275.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
