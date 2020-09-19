@@ -23,13 +23,19 @@
     overflow: hidden; }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0; }
 
 body {
   font-family: sans-serif;
   font-size: 20px;
-  font-weight: 500;
-  scroll-behavior: smooth; }
+  font-weight: 500; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 750; }
@@ -45,6 +51,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   height: 10vh;
   background-color: rgba(0, 0, 0, 0.3); }
 
@@ -56,7 +64,8 @@ header {
   top: 0;
   left: 0;
   height: 10vh;
-  transition: ease 0.5s; }
+  transition: ease 0.5s;
+  z-index: 100; }
 
 #top_Button:hover {
   background-color: black !important;
