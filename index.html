@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ideal Fab & Constructions</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/w3.css">
+	<link rel="stylesheet" type="text/css" href="css/w3.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body><!--rgb(237,205,33)-->
@@ -47,8 +47,8 @@
 	</section>
 	
 	<div id="timeline" class="w3-white">
-		<div id="timeline-header">
-			<div class="w3-container w3-padding-large my-grey w3-round-large">
+		<div class="my-page-header">
+			<div class="w3-container w3-padding-large w3-card my-grey w3-round-large">
 				<span class="w3-bottombar my-text-royalBlue">2001</span>
 				<span class="w3-bottombar my-text-royalBlue">2001</span>
 				<span class="w3-bottombar my-text-royalBlue">2001</span>
@@ -65,7 +65,21 @@
 		</div>
 	</div>
 
+	<div id="service" class="w3-white">
+		<div class="my-page-header">
+			<div class="w3-container w3-padding-large w3-card my-grey w3-round-large">
+				<span class="my-text-royalBlue"><i class="fas fa-stream"></i></span>
+				<span class="my-text-royalBlue"><b>SERVICES</b></span>
+			</div>
+		</div> 
+	</div>
+	<div w3-include-html="asset/expanding-flex-cards/dist/index.html"></div>
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="js/my.js"></script>
+	<script>
+		includeHTML();
+	</script>
 </body>
 </html>

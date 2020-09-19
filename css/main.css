@@ -12,6 +12,16 @@
 .my-grey, .my-hover-grey:hover {
   background-color: #f1f2f7 !important; }
 
+.my-page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16vh;
+  text-align: center; }
+  .my-page-header div {
+    min-width: 50%;
+    overflow: hidden; }
+
 body {
   font-family: sans-serif;
   font-size: 20px;
@@ -107,15 +117,6 @@ video#bgvid {
 #timeline {
   width: 100vw;
   height: 100vh; }
-  #timeline #timeline-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 16vh;
-    text-align: center; }
-    #timeline #timeline-header div:nth-child(1) {
-      min-width: 50%;
-      overflow: hidden; }
   #timeline #timeline1 div {
     display: flex;
     justify-content: center;
@@ -125,6 +126,10 @@ video#bgvid {
     width: 90vw; }
   #timeline #timeline1 div:last-child img {
     width: 90vw; }
+
+#service {
+  width: 100vw;
+  height: 100vh; }
 
 @media only screen and (min-width: 600px) {
   #timeline #timeline1 div {

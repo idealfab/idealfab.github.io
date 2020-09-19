@@ -12,11 +12,24 @@
 	justify-content: $justifyContent;
 	align-items: $alignItems;
 }
+@mixin page($width:100vw,$height:100vh){
+	width: $width;
+	height: $height;
+}
 
 .my-gold, .my-hover-gold:hover { background-color: rgb(237,205,33)!important; color: black!important; }
 .my-text-gold, .my-hover-text-gold:hover {color: rgb(237,205,33)!important;}
 .my-text-royalBlue, .my-hover-text-royalBlue:hover {color: rgb(77,118,253)!important; border-color:rgb(77,118,253)!important;}
 .my-grey, .my-hover-grey:hover { background-color: rgb(241,242,247)!important; }
+.my-page-header{
+	@include flexbox;
+	height: 16vh;
+	text-align: center;
+	div {
+		min-width: 50%;
+		overflow: hidden;
+	}
+}
 
 body{
 	font-family: sans-serif;
@@ -73,17 +86,7 @@ video#bgvid {transition: 1s opacity;}
 .stopfade { opacity: 0.7;}
 
 #timeline {
-	width: 100vw;
-	height: 100vh;
-	#timeline-header {
-		@include flexbox;
-		height: 16vh;
-		text-align: center;
-		div:nth-child(1) {
-			min-width: 50%;
-			overflow: hidden;
-		}
-	}
+	@include page;
 	#timeline1 {
 		div{
 			@include flexbox;
@@ -92,6 +95,10 @@ video#bgvid {transition: 1s opacity;}
 		div:first-child img {width: 90vw;}
 		div:last-child img {width: 90vw;}
 	}
+}
+
+#service {
+	@include page(100vw,100vh);
 }
 
 @media only screen and (min-width: 600px) {

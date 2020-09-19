@@ -4,12 +4,68 @@
 		"selected_items":
 		[
 			[
-				"tr",
-				"translate\t(w3.css)"
+				"inc",
+				"includeHTML\tabc"
+			],
+			[
+				"ser",
+				"service\t(index.html)"
+			],
+			[
+				"w3-le",
+				"w3-left-align\t(w3.css)"
+			],
+			[
+				"w3-right",
+				"w3-right-align\t(w3.css)"
+			],
+			[
+				"my-text",
+				"my-text-royalBlue\tabc"
+			],
+			[
+				"firs",
+				"first-child\t(w3.css)"
 			],
 			[
 				"tim",
-				"timeline1\tabc"
+				"timeline-header\tabc"
+			],
+			[
+				"max-",
+				"max-width\t(w3.css)"
+			],
+			[
+				"font",
+				"font-style\t(w3.css)"
+			],
+			[
+				"max",
+				"max-height\tabc"
+			],
+			[
+				"fon",
+				"font-size\tabc"
+			],
+			[
+				"d",
+				"display\tabc"
+			],
+			[
+				"rg",
+				"rgb(237,205,33\t(index.html)"
+			],
+			[
+				"col",
+				"color\tabc"
+			],
+			[
+				"p",
+				"position\tabc"
+			],
+			[
+				"tr",
+				"translate\t(w3.css)"
 			],
 			[
 				"fl",
@@ -44,10 +100,6 @@
 				"flex-direction\tabc"
 			],
 			[
-				"col",
-				"column\tabc"
-			],
-			[
 				"min",
 				"min-width\tproperty"
 			],
@@ -72,10 +124,6 @@
 				"my-text-royalBlue\t(main.scss)"
 			],
 			[
-				"rg",
-				"rgb\tabc"
-			],
-			[
 				"w3-padd",
 				"w3-padding-large\t(w3.css)"
 			],
@@ -92,16 +140,8 @@
 				"justifyContent\tabc"
 			],
 			[
-				"ser",
-				"sans-serif\t(w3.css)"
-			],
-			[
 				"w3-x",
 				"w3-xxxlarge\t(w3.css)"
-			],
-			[
-				"font",
-				"font-weight\tabc"
 			],
 			[
 				"w3-animate-",
@@ -360,10 +400,6 @@
 				"header-mobile"
 			],
 			[
-				"max",
-				"maxHeight\t = 'inherit' Style CSS"
-			],
-			[
 				"getEl",
 				"getElementById\t( elementId: DOMString ): Element Document"
 			],
@@ -387,16 +423,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3064,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/main.scss",
-			"settings":
-			{
-				"buffer_size": 2595,
+				"buffer_size": 3415,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -405,7 +432,16 @@
 			"file": "js/my.js",
 			"settings":
 			{
-				"buffer_size": 235,
+				"buffer_size": 1185,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.scss",
+			"settings":
+			{
+				"buffer_size": 2696,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -485,6 +521,9 @@
 	],
 	"file_history":
 	[
+		"/home/sameer/github/idealfab.github.io/css/service.scss",
+		"/home/sameer/github/idealfab.github.io/css/service.css",
+		"/home/sameer/github/idealfab.github.io/js/my.js",
 		"/home/sameer/github/idealfab.github.io/js/video.js",
 		"/home/sameer/github/idealfab.github.io/css/main.scss",
 		"/home/sameer/github/idealfab.github.io/css/main.css",
@@ -557,15 +596,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3064,
+						"buffer_size": 3415,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2763,
-								2763
+								3234,
+								3234
 							]
 						],
 						"settings":
@@ -574,7 +613,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1328.0,
+						"translation.y": 1551.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -582,47 +621,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/main.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2595,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2465,
-								2465
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1275.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "js/my.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 235,
+						"buffer_size": 1185,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								198,
-								198
+								1182,
+								1182
 							]
 						],
 						"settings":
@@ -633,7 +644,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2479,
+								2479
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1326.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -661,7 +700,7 @@
 						"translation.y": 1530.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
