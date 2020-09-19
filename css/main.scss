@@ -98,7 +98,7 @@ video#bgvid {transition: 1s opacity;}
 }
 
 #service {
-	@include page(100vw,100vh);
+	@include page(100vw,110vh);
 }
 
 @media only screen and (min-width: 600px) {
