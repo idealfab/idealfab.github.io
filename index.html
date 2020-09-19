@@ -10,6 +10,9 @@
 	<link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.2.0/css/all.css'>
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700'>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'>
+	<link rel="stylesheet" href="css/style2.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
@@ -21,8 +24,8 @@
 		</div>
 		<div id="top_Links">
 				<a href="#timeline" class="w3-button my-hover-text-gold w3-hover-none">Timeline</a>
-				<a href="#" class="w3-button my-hover-text-gold w3-hover-none">Service</a>
-				<a href="#" class="w3-button my-hover-text-gold w3-hover-none">Projects</a>
+				<a href="#service" class="w3-button my-hover-text-gold w3-hover-none">Service</a>
+				<a href="#projectsHead" class="w3-button my-hover-text-gold w3-hover-none">Projects</a>
 		</div>
 		<div class="w3-container">
 			<h2><i>IFC</i></h2>
@@ -30,10 +33,10 @@
 	</header>
 	<nav class="w3-sidebar w3-bar-block w3-center w3-text-black w3-animate-top" id="mySidebar" style="display: none;" >
 				<button onclick="w3_close()" class="w3-bar-item w3-button w3-large">&times;</button>
-				<a href="#" class="w3-bar-item w3-button">Home</a>
+				<a href="index.html" class="w3-bar-item w3-button">Home</a>
 	  			<a href="#timeline" class="w3-bar-item w3-button">Timeline</a>
-	  			<a href="#" class="w3-bar-item w3-button">Service</a>
-	  			<a href="#" class="w3-bar-item w3-button">Projects</a>
+	  			<a href="#service" class="w3-bar-item w3-button">Service</a>
+	  			<a href="#projectsHead" class="w3-bar-item w3-button">Projects</a>
 	  			<a href="#" class="w3-bar-item w3-button">Contact</a>
 			</nav>
 	
@@ -177,10 +180,134 @@
 		</div>
 	</div>
 
+	<div id="projectsHead" class="w3-white my-page-header">
+		<div class="w3-container w3-padding-large w3-card my-grey w3-round-large" style="margin-top: 100px">
+			<span class="my-text-royalBlue"><i class="fas fa-stream"></i></span>
+			<span class="my-text-royalBlue"><b>PROJECTS</b></span>
+		</div>
+	</div>
+	<div id="projects" class="w3-hide-small">
+		<div class="app">
+
+		<div class="cardList">
+			<button class="cardList__btn btn btn--left">
+				<div class="icon">
+					<svg>
+						<use xlink:href="#arrow-left"></use>
+					</svg>
+				</div>
+			</button>
+
+			<div class="cards__wrapper">
+				<div class="card current--card">
+					<div class="card__image">
+						<img src="https://source.unsplash.com/Z8dtTatMVMw" alt="" />
+					</div>
+				</div>
+
+				<div class="card next--card">
+					<div class="card__image">
+						<img src="https://source.unsplash.com/9dmycbFE7mQ" alt="" />
+					</div>
+				</div>
+
+				<div class="card previous--card">
+					<div class="card__image">
+						<img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" />
+					</div>
+				</div>
+			</div>
+
+			<button class="cardList__btn btn btn--right">
+				<div class="icon">
+					<svg>
+						<use xlink:href="#arrow-right"></use>
+					</svg>
+				</div>
+			</button>
+		</div>
+
+		<div class="infoList">
+			<div class="info__wrapper">
+				<div class="info current--info">
+					<h1 class="text name">Project 1</h1>
+					<h4 class="text location">Bahadurgarh</h4>
+					<p class="text description">BahadurgarhBahadurgarh</p>
+				</div>
+
+				<div class="info next--info">
+					<h1 class="text name">Project 2</h1>
+					<h4 class="text location">Faridabad</h4>
+					<p class="text description">FaridabadFaridabad</p>
+				</div>
+
+				<div class="info previous--info">
+					<h1 class="text name">Project 3</h1>
+					<h4 class="text location">New Delhi</h4>
+					<p class="text description">New Delhi New Delhi</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="app__bg">
+			<div class="app__bg__image current--image">
+				<img src="https://source.unsplash.com/Z8dtTatMVMw" alt="" />
+			</div>
+			<div class="app__bg__image next--image">
+				<img src="https://source.unsplash.com/9dmycbFE7mQ" alt="" />
+			</div>
+			<div class="app__bg__image previous--image">
+				<img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" />
+			</div>
+		</div>
+	</div>
+
+	<div class="loading__wrapper">
+		<div class="loader--text my-text-gold">Loading...</div>
+		<div class="loader">
+			<span></span>
+		</div>
+	</div>
+	<svg class="icons" style="display: none;">
+		<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+			<polyline points='328 112 184 256 328 400'
+						 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+		</symbol>
+		<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+			<polyline points='184 112 328 256 184 400'
+						 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+		</symbol>
+	</svg>
+	</div>
+	<div id="service2" class="w3-hide-large w3-hide-medium w3-white">
+		<div class="w3-padding my-box-card w3-round-medium">
+			<div class="w3-card w3-display-container">
+				<img src="https://source.unsplash.com/Z8dtTatMVMw" alt="materials" class="my-image">
+				<span class="w3-display-bottomleft w3-margin w3-padding w3-white w3-round-large"><i class="fas fa-tint"></i> Project 1</span>
+			</div>
+		</div>
+		<div class="w3-padding my-box-card w3-round-medium">
+			<div class="w3-card w3-display-container">
+				<img src="https://source.unsplash.com/9dmycbFE7mQ" alt="materials" class="my-image">
+				<span class="w3-display-bottomleft w3-margin w3-padding w3-white w3-round-large"><i class="fas fa-tint"></i> Project 2</span>
+			</div>
+		</div>
+		<div class="w3-padding my-box-card w3-round-medium">
+			<div class="w3-card w3-display-container">
+				<img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="materials" class="my-image">
+				<span class="w3-display-bottomleft w3-margin w3-padding w3-white w3-round-large"><i class="fas fa-tint"></i> Project 3</span>
+			</div>
+		</div>
+	</div>
+
 	
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 	<script src="js/script.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script>
+	<script src="js/script2.js"></script>
 	<script src="js/my.js"></script>
 </body>
 </html>
