@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"f",
+				"expanding-flex-cards/"
+			],
+			[
 				"inc",
 				"includeHTML\tabc"
 			],
@@ -516,11 +520,14 @@
 	[
 		"/home/sameer/github/idealfab.github.io",
 		"/home/sameer/github/idealfab.github.io/asset",
+		"/home/sameer/github/idealfab.github.io/asset/expanding-flex-cards",
+		"/home/sameer/github/idealfab.github.io/asset/expanding-flex-cards/dist",
 		"/home/sameer/github/idealfab.github.io/css",
 		"/home/sameer/github/idealfab.github.io/js"
 	],
 	"file_history":
 	[
+		"/home/sameer/github/idealfab.github.io/asset/expanding-flex-cards/dist/index.html",
 		"/home/sameer/github/idealfab.github.io/css/service.scss",
 		"/home/sameer/github/idealfab.github.io/css/service.css",
 		"/home/sameer/github/idealfab.github.io/js/my.js",
@@ -603,8 +610,8 @@
 						"selection":
 						[
 							[
-								3234,
-								3234
+								3227,
+								3227
 							]
 						],
 						"settings":
@@ -613,7 +620,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1551.0,
+						"translation.y": 1024.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -790,7 +797,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 197.0,
 	"status_bar_visible": true,
 	"template_settings":
