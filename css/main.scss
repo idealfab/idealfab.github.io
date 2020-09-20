@@ -30,6 +30,7 @@
 		overflow: hidden;
 	}
 }
+.my-footer {color: white!important; background-color: #292929!important;}
 
 *{ box-sizing: border-box; 
 	margin:0;
@@ -55,6 +56,8 @@ header {
 	flex-direction: row;
 	height: 10vh;
 	background-color: rgba(#000, 0.3);
+	a { padding: 5px;}
+	a:hover {border-bottom: solid rgb(237,205,33);}
 }
 #top_Links { display: none; }
 #top_Button {
@@ -67,9 +70,6 @@ header {
 	z-index: 100;
 }
 #top_Button:hover {background-color: black!important; color:rgb(237,205,33)!important; @include my-transition;}
-
-a { padding: 5px;}
-a:hover {border-bottom: solid rgb(237,205,33);}
 
 #first{
 	@include flexbox;
@@ -127,6 +127,20 @@ video#bgvid {transition: 1s opacity;}
 .my-box-card{
 	@include page(100%,100%);
 }
+#contact {
+	@include flexbox;
+	@include page(100vw,100vh);
+	background: url(../asset/contact.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	#contactMain{
+		@include flexbox;
+		flex-direction: column;
+		width:90%;
+		overflow: hidden;
+	}
+}
+
 
 @media only screen and (min-width: 600px) {
 	.my-box-card {

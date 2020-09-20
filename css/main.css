@@ -22,6 +22,10 @@
     min-width: 50%;
     overflow: hidden; }
 
+.my-footer {
+  color: white !important;
+  background-color: #292929 !important; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -55,6 +59,10 @@ header {
   flex-direction: row;
   height: 10vh;
   background-color: rgba(0, 0, 0, 0.3); }
+  header a {
+    padding: 5px; }
+  header a:hover {
+    border-bottom: solid #edcd21; }
 
 #top_Links {
   display: none; }
@@ -71,12 +79,6 @@ header {
   background-color: black !important;
   color: #edcd21 !important;
   transition: ease 0.5s; }
-
-a {
-  padding: 5px; }
-
-a:hover {
-  border-bottom: solid #edcd21; }
 
 #first {
   display: flex;
@@ -153,6 +155,23 @@ video#bgvid {
 .my-box-card {
   min-width: 100%;
   min-height: 100%; }
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: url(../asset/contact.svg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #contact #contactMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    overflow: hidden; }
 
 @media only screen and (min-width: 600px) {
   .my-box-card {
