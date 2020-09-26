@@ -1,32 +1,32 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
-#contact .social-container {
+ .social-container {
   width: 400px;
   text-align: center;
 }
 
-#contact .social-icons {
+ .social-icons {
   padding: 0;
   list-style: none;
   margin: 1em;
 }
-#contact .social-icons li {
+ .social-icons li {
   display: inline-block;
   margin: 0.15em;
   position: relative;
   font-size: 1.2em;
 }
-#contact .social-icons i {
+ .social-icons i {
   color: #fff;
   position: absolute;
   top: 18px;
   left: 19px;
   transition: all 265ms ease-out;
 }
-#contact .social-icons a {
+ .social-icons a {
   display: inline-block;
 }
-#contact .social-icons a:before {
+ .social-icons a:before {
   transform: scale(1);
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
@@ -38,11 +38,11 @@
   background: linear-gradient(45deg, #ff003c, #c648c8);
   transition: all 265ms ease-out;
 }
-#contact .social-icons a:hover:before {
+ .social-icons a:hover:before {
   transform: scale(0);
   transition: all 265ms ease-in;
 }
-#contact .social-icons a:hover i {
+ .social-icons a:hover i {
   transform: scale(2.2);
   -ms-transform: scale(2.2);
   -webkit-transform: scale(2.2);

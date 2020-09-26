@@ -4,8 +4,140 @@
 		"selected_items":
 		[
 			[
-				"fl",
+				"ea",
+				"ease\tabc"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"my-hov",
+				"my-hover-text-gold-gradient\t(main.scss)"
+			],
+			[
+				"back",
+				"background\tabc"
+			],
+			[
+				"co",
+				"color\tabc"
+			],
+			[
+				"con",
+				"contact\tabc"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"w3-round-x",
+				"w3-round-xlarge\t(w3.css)"
+			],
+			[
+				"w3-ro",
+				"w3-round-large\tabc"
+			],
+			[
+				"my-go",
+				"my-gold-gradient\t(main.scss)"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"ro",
+				"rotate()\ttransform"
+			],
+			[
+				"tr",
+				"transform\tproperty"
+			],
+			[
+				"social",
+				"social-icons\tabc"
+			],
+			[
+				"col",
+				"color\tabc"
+			],
+			[
+				"fle",
 				"flex-direction\tabc"
+			],
+			[
+				"soc",
+				"social-container\t(index.html)"
+			],
+			[
+				"pad",
+				"padding-bottom\t(w3.css)"
+			],
+			[
+				"soci",
+				"social-icons\t(index.html)"
+			],
+			[
+				"font",
+				"font-size\tabc"
+			],
+			[
+				"flex",
+				"flex-direction\tabc"
+			],
+			[
+				"w3-hid",
+				"w3-hide-small\tabc"
+			],
+			[
+				"w3-rou",
+				"w3-round-xxlarge\tabc"
+			],
+			[
+				"fl",
+				"flexbox\tabc"
+			],
+			[
+				"rg",
+				"rgb()\tcolor"
+			],
+			[
+				"ba",
+				"background-color\tabc"
+			],
+			[
+				"bac",
+				"background-color\tabc"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"min",
+				"min-width\tabc"
+			],
+			[
+				"bl",
+				"block\tabc"
+			],
+			[
+				"dis",
+				"display\tabc"
+			],
+			[
+				"st",
+				"style\tabc"
+			],
+			[
+				"onmou",
+				"onmouseover\tAttr"
 			],
 			[
 				"firs",
@@ -16,36 +148,8 @@
 				"min-height\tabc"
 			],
 			[
-				"flex",
-				"flexbox\tabc"
-			],
-			[
-				"ba",
-				"background-size\tabc"
-			],
-			[
-				"co",
-				"cover\tabc"
-			],
-			[
-				"back",
-				"background-size\tabc"
-			],
-			[
-				"con",
-				"contact\t(index.html)"
-			],
-			[
 				"w3-r",
 				"w3-round-medium\tabc"
-			],
-			[
-				"w3-rou",
-				"w3-round-medium\tabc"
-			],
-			[
-				"w3-hid",
-				"w3-hide-medium\tabc"
 			],
 			[
 				"w3-hide",
@@ -58,10 +162,6 @@
 			[
 				"pr",
 				"projectsHead\tabc"
-			],
-			[
-				"margin",
-				"margin-top\tproperty"
 			],
 			[
 				"my-te",
@@ -82,10 +182,6 @@
 			[
 				"w",
 				"wrap\tflex-wrap"
-			],
-			[
-				"fle",
-				"flex-wrap\tproperty"
 			],
 			[
 				"time",
@@ -168,14 +264,6 @@
 				"max-width\t(w3.css)"
 			],
 			[
-				"font",
-				"font-style\t(w3.css)"
-			],
-			[
-				"max",
-				"max-height\tabc"
-			],
-			[
 				"fon",
 				"font-size\tabc"
 			],
@@ -184,20 +272,8 @@
 				"display\tabc"
 			],
 			[
-				"rg",
-				"rgb(237,205,33\t(index.html)"
-			],
-			[
-				"col",
-				"color\tabc"
-			],
-			[
 				"p",
 				"position\tabc"
-			],
-			[
-				"tr",
-				"translate\t(w3.css)"
 			],
 			[
 				"w3-cen",
@@ -206,14 +282,6 @@
 			[
 				"un",
 				"unset\theight"
-			],
-			[
-				"ro",
-				"row\tflex-direction"
-			],
-			[
-				"min",
-				"min-width\tproperty"
 			],
 			[
 				"my-g",
@@ -276,10 +344,6 @@
 				"top_Links\tabc"
 			],
 			[
-				"my-hov",
-				"my-hover-text-gold\t(main.scss)"
-			],
-			[
 				"w3-hover",
 				"w3-hover-none\tabc"
 			],
@@ -308,20 +372,12 @@
 				"rgba()\tbackground-color"
 			],
 			[
-				"bac",
-				"background-color\tabc"
-			],
-			[
 				"align-",
 				"align-items\tproperty"
 			],
 			[
 				"spa",
 				"space-between\tjustify-content"
-			],
-			[
-				"tra",
-				"translate\t(w3.css)"
 			],
 			[
 				"alig",
@@ -458,46 +514,6 @@
 			[
 				"im",
 				"imgResize"
-			],
-			[
-				"la",
-				"lazy"
-			],
-			[
-				"prod",
-				"product2"
-			],
-			[
-				"ima",
-				"images"
-			],
-			[
-				"remove",
-				"removeClass"
-			],
-			[
-				"add",
-				"addClass"
-			],
-			[
-				"header",
-				"header-mobile"
-			],
-			[
-				"getEl",
-				"getElementById\t( elementId: DOMString ): Element Document"
-			],
-			[
-				"bl",
-				"Black"
-			],
-			[
-				"Mas",
-				"masterbatches"
-			],
-			[
-				"Gl",
-				"globusfaridabad"
 			]
 		]
 	},
@@ -507,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 14817,
+				"buffer_size": 14255,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -516,7 +532,7 @@
 			"file": "css/main.scss",
 			"settings":
 			{
-				"buffer_size": 3387,
+				"buffer_size": 4382,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -685,15 +701,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14817,
+						"buffer_size": 14255,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12903,
-								12903
+								1995,
+								1995
 							]
 						],
 						"settings":
@@ -702,7 +718,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8460.0,
+						"translation.y": 729.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -714,15 +730,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3387,
+						"buffer_size": 4382,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3093,
-								3093
+								2311,
+								2311
 							]
 						],
 						"settings":
@@ -730,7 +746,7 @@
 							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2030.0,
+						"translation.y": 1326.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -797,7 +813,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 26.0
 	},
 	"input":
 	{
