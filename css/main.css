@@ -175,7 +175,7 @@ video {
   -moz-transform: translateX(-50%) translateY(-65%);
   transform: translateX(-50%) translateY(-65%);
   background: url(../asset/file.webp) no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 #vidpause {
@@ -200,17 +200,11 @@ video {
   min-width: 100vw;
   min-height: 100vh;
 }
-#timeline #timeline1 div {
+#timeline .panel {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 42vh;
-}
-#timeline #timeline1 div:first-child img {
-  width: 90vw;
-}
-#timeline #timeline1 div:last-child img {
-  width: 90vw;
+  flex-direction: column;
 }
 
 #service {
@@ -255,14 +249,8 @@ video {
     min-height: 50%;
   }
 
-  #timeline #timeline1 div {
-    height: 84vh;
-  }
-  #timeline #timeline1 div:first-child img {
-    width: 35vw;
-  }
-  #timeline #timeline1 div:last-child img {
-    width: 45vw;
+  #timeline .panel {
+    flex-direction: row;
   }
 
   #top_Links {

@@ -9,23 +9,25 @@
 	<link rel='stylesheet' href='https://static.fontawesome.com/css/fontawesome-app.css'>
 	<link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.2.0/css/all.css'>
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700'>
-	<link rel="stylesheet" href="css/style.css">
 	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style2.css">
 	<link rel="stylesheet" href="css/style3.css">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="css/style5.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body><!--rgb(237,205,33)-->
 	
 
-	<!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
-	<video playsinline autoplay muted loop poster="asset/file.webp" id="bgvid">
-		<source src="asset/file.mp4" type="video/mp4" />
-	</video>
-
+	
 	<section id="first" class="w3-container">
+		<!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+		<video playsinline autoplay muted loop poster="asset/file.webp" id="bgvid">
+			<source src="asset/file.mp4" type="video/mp4" />
+		</video>
+
 		<button id="vidpause" class="w3-button w3-transparent w3-text-white my-hover-text-gold">
 			<i id="vidpause-icon" class="w3-xxlarge far fa-pause-circle"></i>
 		</button>
@@ -48,23 +50,43 @@
 		</nav>
 	</section>
 	
-	<div id="timeline" class="w3-white">
-		<div class="my-page-header">
-			<div class="w3-container w3-padding-large w3-card my-grey w3-round-large">
-				<span class="my-text-royalBlue">2001</span>
-				<span class="my-text-royalBlue">2001</span>
-				<span class="my-text-royalBlue">2001</span>
-				<span class="my-text-royalBlue">2001</span>
-			</div>
-		</div>
-		<div id="timeline1" class="w3-row">
-			<div class="w3-half">
+	<div class="container" id="timeline">
+  		<div class="panel blue w3-row">
+		    <div class="w3-half">
 				<img src="asset/dots.svg" alt="dots">
 			</div>
 			<div class="w3-half">
 				<img src="asset/blob.svg" alt="main image">
 			</div>
 		</div>
+
+
+		  <section class="panel red w3-row">
+		    <div class="w3-half">
+				<img src="asset/timeline2-img.svg" alt="timeline image">
+			</div>
+			<div class="w3-half">
+				<img src="asset/timeline2-text.svg" alt="timeline 2 image">
+			</div>
+		  </section>
+		  <section class="panel orange w3-row">
+		    <div class="w3-half">
+				<img src="asset/timeline3-text.svg" alt="timeline image">
+			</div>
+			<div class="w3-half">
+				<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+				<lottie-player src="asset/lf30_editor_s0kymnzk.json"  background="transparent"  speed="1" style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+			</div>
+		  </section>
+		  <section class="panel purple w3-row">
+		    <div class="w3-half">
+				<img src="asset/timeline3-text.svg" alt="timeline image">
+			</div>
+			<div class="w3-half">
+				<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+				<lottie-player src="https://assets4.lottiefiles.com/packages/lf20_BXafZO.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+			</div>
+		  </section>
 	</div>
 
 	<div id="service" class="w3-white">
@@ -355,6 +377,7 @@
 	<script src="js/script.js"></script>
 	<script src="js/video.js"></script>
 	<script src="js/script2.js"></script>
+	<script src="js/script5.js"></script>
 	<script src="js/my.js"></script>
 </body>
 </html>

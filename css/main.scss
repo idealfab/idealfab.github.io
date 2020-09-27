@@ -141,7 +141,7 @@ video {display: block;}
 	z-index: -100;
 	@include transform(translateX(-50%) translateY(-65%));
 	background: url(../asset/file.webp) no-repeat;
-	background-size: auto;
+	background-size: cover;
 }
 #vidpause {
 	position: absolute;
@@ -152,15 +152,11 @@ video {display: block;}
 #bgvid {transition: 1s opacity;}
 .stopfade { opacity: 0.7;}
 
-#timeline {
+#timeline{
 	@include page;
-	#timeline1 {
-		div{
-			@include flexbox;
-			height: 42vh;
-		}
-		div:first-child img {width: 90vw;}
-		div:last-child img {width: 90vw;}
+	.panel {
+		@include flexbox;
+		flex-direction: column;
 	}
 }
 
@@ -195,10 +191,8 @@ video {display: block;}
 		@include page(50%,50%);
 	}
 	#timeline{
-		#timeline1{
-			div{ height: 84vh; }
-			div:first-child img {width: 35vw;}
-			div:last-child img {width: 45vw;}
+		.panel {
+			flex-direction: row;
 		}
 	}
 	#top_Links {display: inline;}

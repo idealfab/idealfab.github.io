@@ -14,18 +14,22 @@
    version="1.1"
    id="svg269"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="dots.svg">
+   sodipodi:docname="timeline3-text.svg">
   <defs
      id="defs263">
     <linearGradient
        inkscape:collect="always"
        id="linearGradient914">
       <stop
-         style="stop-color:#9796f0;stop-opacity:1"
+         style="stop-color:#0f0c29;stop-opacity:1"
          offset="0"
          id="stop910" />
       <stop
-         style="stop-color:#fbc7d4;stop-opacity:0.99607843"
+         style="stop-color:#302b63;stop-opacity:0.99607843"
+         offset="0.4982354"
+         id="stop843" />
+      <stop
+         style="stop-color:#24243e;stop-opacity:0.99607843"
          offset="1"
          id="stop912" />
     </linearGradient>
@@ -37,7 +41,8 @@
        y1="372.05222"
        x2="53.15976"
        y2="372.05222"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(3.1750001)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -46,9 +51,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.48485648"
-     inkscape:cx="356.57022"
-     inkscape:cy="190.38893"
+     inkscape:zoom="0.74123184"
+     inkscape:cx="461.71462"
+     inkscape:cy="262.83765"
      inkscape:document-units="mm"
      inkscape:current-layer="g1293"
      inkscape:document-rotation="0"
@@ -61,7 +66,8 @@
      inkscape:window-height="708"
      inkscape:window-x="0"
      inkscape:window-y="28"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="true" />
   <metadata
      id="metadata266">
     <rdf:RDF>
@@ -84,37 +90,37 @@
        transform="translate(90.109124,-174.4777)">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:22.7373px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.236847"
-         x="-97.807968"
-         y="255.74919"
+         style="font-style:normal;font-weight:normal;font-size:21.6605px;line-height:1.25;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.22563"
+         x="-99.108238"
+         y="260.1492"
          id="text1082"
          transform="scale(0.93844125,1.0655968)"><tspan
            sodipodi:role="line"
-           x="-97.807968"
-           y="255.74919"
-           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.7373px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';fill:#ffffff;stroke-width:0.236847"
-           id="tspan1112">FROM THE</tspan><tspan
+           x="-99.108238"
+           y="260.1492"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.6605px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.22563"
+           id="tspan28">DELIVERING</tspan><tspan
            sodipodi:role="line"
-           x="-97.807968"
-           y="284.17081"
-           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.7373px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';fill:#ffffff;stroke-width:0.236847"
-           id="tspan1116">PASSIONATE</tspan><tspan
+           x="-99.108238"
+           y="287.22482"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.6605px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.22563"
+           id="tspan24">CONSISTENT</tspan><tspan
            sodipodi:role="line"
-           x="-97.807968"
-           y="312.59244"
-           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.7373px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';fill:#ffffff;stroke-width:0.236847"
-           id="tspan1118">ENGINEERS</tspan><tspan
+           x="-99.108238"
+           y="314.30045"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.6605px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.22563"
+           id="tspan26">SERVICE</tspan><tspan
            sodipodi:role="line"
-           x="-97.807968"
-           y="341.01407"
-           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.7373px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';fill:#ffffff;stroke-width:0.236847"
-           id="tspan1120">DREAM</tspan></text>
+           x="-99.108238"
+           y="341.37607"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.6605px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';text-align:start;text-anchor:start;fill:#ffffff;stroke-width:0.22563"
+           id="tspan29">SINCE 1999</tspan></text>
       <rect
          style="fill:url(#linearGradient916);fill-opacity:1;stroke:none;stroke-width:1.88703;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.994333"
          id="rect1126"
          width="146.14404"
          height="5.7964134"
-         x="-92.984283"
+         x="-89.80928"
          y="369.15402" />
     </g>
   </g>
