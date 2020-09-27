@@ -1,0 +1,11 @@
+.container {
+  width: 600%;
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: no-wrap;
+}
+
+.panel {
+  will-change: transform;
+}

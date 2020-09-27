@@ -207,7 +207,7 @@ function init() {
 		"-=0.4"
 	);
 }
-
+init();
 const waitForImages = () => {
 	const images = [...document.querySelectorAll("img")];
 	const totalImages = images.length;
@@ -252,4 +252,4 @@ const waitForImages = () => {
 	});
 };
 
-waitForImages();
+//waitForImages();

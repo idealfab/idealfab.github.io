@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"over",
+				"overflow-y\tproperty"
+			],
+			[
+				"overflow",
+				"overflow-x\tproperty"
+			],
+			[
+				"ov",
+				"overflow\tproperty"
+			],
+			[
+				"fun",
+				"function\tabc"
+			],
+			[
+				"onmou",
+				"onmouseenter\t: EventHandler Document"
+			],
+			[
+				"vid",
+				"vidpause\t(index.html)"
+			],
+			[
+				"rel",
+				"relative\tabc"
+			],
+			[
 				"ea",
 				"ease\tabc"
 			],
@@ -134,10 +162,6 @@
 			[
 				"st",
 				"style\tabc"
-			],
-			[
-				"onmou",
-				"onmouseover\tAttr"
 			],
 			[
 				"firs",
@@ -352,10 +376,6 @@
 				"border\t(w3.css)"
 			],
 			[
-				"vid",
-				"vidpause\tabc"
-			],
-			[
 				"trasn",
 				"transition\tabc"
 			],
@@ -494,26 +514,6 @@
 			[
 				"no",
 				"no-repeat\tbackground-repeat"
-			],
-			[
-				"sc",
-				"script\tTag"
-			],
-			[
-				"he",
-				"height\tproperty"
-			],
-			[
-				"style",
-				"style\tAttr"
-			],
-			[
-				"ht",
-				"html5\tSimple HTML5 Boilerplate"
-			],
-			[
-				"im",
-				"imgResize"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 14255,
+				"buffer_size": 14390,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -532,7 +532,7 @@
 			"file": "css/main.scss",
 			"settings":
 			{
-				"buffer_size": 4382,
+				"buffer_size": 4396,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -541,18 +541,9 @@
 			"file": "js/my.js",
 			"settings":
 			{
-				"buffer_size": 235,
+				"buffer_size": 359,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/w3.css",
-			"settings":
-			{
-				"buffer_size": 23127,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -568,12 +559,12 @@
 		"selected_items":
 		[
 			[
-				"LiveReload: Enable/disable plugins",
-				"LiveReload: Enable/disable plug-ins"
-			],
-			[
 				"Package Control: ",
 				"Package Control: Install Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
 			],
 			[
 				"live",
@@ -618,14 +609,14 @@
 	],
 	"file_history":
 	[
+		"/home/sameer/github/idealfab.github.io/js/my.js",
+		"/home/sameer/github/idealfab.github.io/css/w3.css",
 		"/home/sameer/github/idealfab.github.io/css/style2.css",
 		"/home/sameer/github/idealfab.github.io/asset/voyage-slider-gsap/src/style.scss",
 		"/home/sameer/github/idealfab.github.io/css/style.css",
-		"/home/sameer/github/idealfab.github.io/css/w3.css",
 		"/home/sameer/github/idealfab.github.io/asset/expanding-flex-cards/dist/index.html",
 		"/home/sameer/github/idealfab.github.io/css/service.scss",
 		"/home/sameer/github/idealfab.github.io/css/service.css",
-		"/home/sameer/github/idealfab.github.io/js/my.js",
 		"/home/sameer/github/idealfab.github.io/js/video.js",
 		"/home/sameer/github/idealfab.github.io/css/main.scss",
 		"/home/sameer/github/idealfab.github.io/css/main.css",
@@ -692,7 +683,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -701,15 +692,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14255,
+						"buffer_size": 14390,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1995,
-								1995
+								14225,
+								14044
 							]
 						],
 						"settings":
@@ -718,10 +709,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 729.0,
+						"translation.y": 8419.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -730,15 +721,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4382,
+						"buffer_size": 4396,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2311,
-								2311
+								3168,
+								3168
 							]
 						],
 						"settings":
@@ -746,10 +737,10 @@
 							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1326.0,
+						"translation.y": 2065.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -758,15 +749,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 235,
+						"buffer_size": 359,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								235,
-								235
+								357,
+								357
 							]
 						],
 						"settings":
@@ -778,34 +769,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "css/w3.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 23127,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]

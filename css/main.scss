@@ -89,10 +89,10 @@ h2{font-size:2rem;font-family: serif;}
 		@include flexbox(space-between);
 		flex-direction: column;
 		text-align: center;
-		div:first-child{
+		span{
 			margin-top: 50px;
 			font-size: 20px;
-			transform: rotate(-90deg);
+			@include transform(rotate(-90deg));
 			@include my-transition;
 			a {
 				text-decoration: none;
@@ -141,11 +141,15 @@ video {display: block;}
 	z-index: -100;
 	@include transform(translateX(-50%) translateY(-65%));
 	background: url(../asset/file.webp) no-repeat;
-	background-size: cover;
+	background-size: auto;
 }
-#vidpause{ position:absolute;}
+#vidpause {
+	position: absolute;
+	top: 0;
+	left:0;
+}
 #vidpause:focus{outline:none;}
-video#bgvid {transition: 1s opacity;}
+#bgvid {transition: 1s opacity;}
 .stopfade { opacity: 0.7;}
 
 #timeline {

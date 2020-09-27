@@ -19,7 +19,7 @@ vid.addEventListener('ended', function() {
 pauseButton.addEventListener("click", function() {
     vid.classList.toggle("stopfade");
 	if (vid.paused) {
-vid.play();
+		vid.play();
 		pauseButton_icon.classList.remove("fa-play-circle");
 		pauseButton_icon.classList.add("fa-pause-circle");
 	} else {

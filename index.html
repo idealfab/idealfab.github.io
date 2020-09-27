@@ -22,26 +22,27 @@
 
 	<!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
 	<video playsinline autoplay muted loop poster="asset/file.webp" id="bgvid">
-		<source src="asset/file.mp4" type="video/mp4">
+		<source src="asset/file.mp4" type="video/mp4" />
 	</video>
-	<button id="vidpause" class="w3-button w3-transparent w3-text-white my-hover-text-gold w3-hover-none"><i class="w3-xxlarge far fa-pause-circle"></i></button>
-	<script src="js/video.js"></script>
 
 	<section id="first" class="w3-container">
+		<button id="vidpause" class="w3-button w3-transparent w3-text-white my-hover-text-gold">
+			<i id="vidpause-icon" class="w3-xxlarge far fa-pause-circle"></i>
+		</button>
 		<img src="asset/hexagon.svg" alt="firstlook">
 		<a href="#timeline"><i class="fas fa-chevron-down w3-xxxlarge w3-text-white"></i></a>
-		<nav class="w3-text-white w3-hide-small">
-			<div class="my-gold-gradient w3-round-xxlarge my-hover-text-gold-gradient w3-padding"><a href="#contact"><b>ContactUs</b></a></div>
+		<nav class="gfromRight w3-text-white w3-hide-small">
+			<span class="my-gold-gradient w3-round-xxlarge my-hover-text-gold-gradient w3-padding"><a href="#contact" class="gfromRight"><b>ContactUs</b></a></span>
 			<div class="social-container">
 				<ul class="social-icons">
-					<li><a href="#"><i class="fas fa-phone-alt"></i></a></li>
+					<li class="gfromRight"><a href="#"><i class="fas fa-phone-alt"></i></a></li>
 				</ul>
 			</div>
 			<div class="social-container">
 			    <ul class="social-icons">
-			        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-			        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-			        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			        <li class="gfromRight"><a href="#"><i class="fa fa-instagram"></i></a></li>
+			        <li class="gfromRight"><a href="#"><i class="fa fa-twitter"></i></a></li>
+			        <li class="gfromRight"><a href="#"><i class="fa fa-linkedin"></i></a></li>
 			    </ul>
 			</div>
 		</nav>
@@ -256,12 +257,12 @@
 		</div>
 	</div>
 
-	<div class="loading__wrapper">
+	<!--<div class="loading__wrapper">
 		<div class="loader--text my-text-gold">Loading...</div>
 		<div class="loader">
 			<span></span>
 		</div>
-	</div>
+	</div>-->
 	<svg class="icons" style="display: none;">
 		<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
 			<polyline points='328 112 184 256 328 400'
@@ -347,11 +348,12 @@
       </div>
     </div>
 	
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-	<script src="js/script.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/video.js"></script>
 	<script src="js/script2.js"></script>
 	<script src="js/my.js"></script>
 </body>

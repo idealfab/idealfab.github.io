@@ -111,13 +111,16 @@ h2 {
   flex-direction: column;
   text-align: center;
 }
-#first nav div:first-child {
+#first nav span {
   margin-top: 50px;
   font-size: 20px;
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
   transform: rotate(-90deg);
   transition: ease 0.5s;
 }
-#first nav div:first-child a {
+#first nav span a {
   text-decoration: none;
 }
 #first nav .social-container {
@@ -172,18 +175,20 @@ video {
   -moz-transform: translateX(-50%) translateY(-65%);
   transform: translateX(-50%) translateY(-65%);
   background: url(../asset/file.webp) no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 #vidpause {
   position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #vidpause:focus {
   outline: none;
 }
 
-video#bgvid {
+#bgvid {
   transition: 1s opacity;
 }
 
