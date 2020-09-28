@@ -64,13 +64,14 @@
      inkscape:window-height="708"
      id="namedview65"
      showgrid="false"
-     inkscape:zoom="0.72430871"
+     inkscape:zoom="0.68130708"
      inkscape:cx="498"
      inkscape:cy="337.00229"
      inkscape:window-x="0"
      inkscape:window-y="28"
      inkscape:window-maximized="1"
-     inkscape:current-layer="e1d6a9e2-5d0a-4358-9625-bb79dd06fec3" />
+     inkscape:current-layer="e1d6a9e2-5d0a-4358-9625-bb79dd06fec3"
+     inkscape:document-rotation="0" />
   <title
      id="title2">solution_mindset</title>
   <path
@@ -121,13 +122,6 @@
      r="56.018"
      fill="#3f3d56"
      id="circle26" />
-  <rect
-     x="32.49044"
-     y="662.13328"
-     width="963.50956"
-     height="2.24072"
-     fill="#2f2e41"
-     id="rect28" />
   <path
      d="M986.13709,473.81218l12.80452,35.07325s-13.36124,40.08372,0,41.19716S1013.973,511.669,1013.973,511.669l-7.23733-42.31059Z"
      transform="translate(-102 -112.99772)"
