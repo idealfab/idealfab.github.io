@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="css/style3.css">
 	<link rel="stylesheet" href="css/style5.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body><!--rgb(237,205,33)-->
 	
@@ -51,42 +52,61 @@
 	</section>
 	
 	<div class="container" id="timeline">
-  		<div class="panel blue w3-row">
-		    <div class="w3-half">
+
+		<div id="app">
+			    <div class="button active" onclick="window.location='#timeline_1'"></div>
+				<div class="button" onclick="window.location='#timeline_2'"></div>
+				<div class="button" onclick="window.location='#timeline_3'"></div>
+			</div>
+
+  		<div class="panel blue" id="timeline_1">
+		    <div class="g-fromLeft panel-element">
 				<img src="asset/dots.svg" alt="dots">
 			</div>
-			<div class="w3-half">
+			<div class="g-fromRight panel-element">
 				<img src="asset/blob.svg" alt="main image">
+			</div>
+			<div class="panel-element-last">
+				<div class="w3-white w3-padding-small w3-card">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ea quasi voluptas sunt, nobis corrupti deleniti ipsum, nam nesciunt animi officiis tempore optio porro? Nesciunt eius minus rem at id?</p>
+				</div>
 			</div>
 		</div>
 
-
-		  <section class="panel red w3-row">
-		    <div class="w3-half w3-padding">
+		  <section class="panel red" id="timeline_2">
+		    <div class="g-fromLeft panel-element">
 				<img src="asset/timeline2-img.svg" alt="timeline image">
 			</div>
-			<div class="w3-half w3-padding">
+			<div class="g-fromRight panel-element">
 				<img src="asset/timeline2-text.svg" alt="timeline 2 image">
 			</div>
+			<div class="panel-element-last">
+				<div class="w3-white w3-padding-small w3-card">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ea quasi voluptas sunt, nobis corrupti deleniti ipsum, nam nesciunt animi officiis tempore optio porro? Nesciunt eius minus rem at id?</p>
+				</div>
+			</div>
 		  </section>
-		  <section class="panel orange w3-row">
-		    <div class="w3-half w3-padding">
+
+		  <section class="panel orange" id="timeline_3">
+		    <div class="g-fromLeft panel-element">
 				<img src="asset/timeline3-text.svg" alt="timeline image">
 			</div>
-			<div class="w3-half w3-padding">
+			<div class="g-fromRight panel-element">
 				<lottie-player src="asset/lf30_editor_s0kymnzk.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
+			</div>
+			<div class="panel-element-last">
+				<div class="w3-white w3-padding-small w3-card">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ea quasi voluptas sunt, nobis corrupti deleniti ipsum, nam nesciunt animi officiis tempore optio porro? Nesciunt eius minus rem at id?</p>
+				</div>
 			</div>
 		  </section>
 	</div>
 
 	<div id="service" class="w3-white">
-		<div class="my-page-header">
-			<div class="w3-container w3-padding-large w3-card my-grey w3-round-large">
-				<span class="my-text-royalBlue"><i class="fas fa-stream"></i></span>
-				<span class="my-text-royalBlue"><b>SERVICES</b></span>
-			</div>
+		<div class="my-page-header g-opacity w3-card">
+			<h2><i class="fas fa-stream"></i> <b>SERVICES</b></h2>
 		</div>
-		<div id="flexCard" class="w3-hide-small w3-hide-medium">
+		<div id="flexCard" class="w3-hide-small w3-hide-medium g-opacity">
 			<div class="options">
 			   <div class="option active" style="--optionBackground:url(../asset/building.jpg);">
 			      <div class="shadow"></div>
@@ -152,32 +172,32 @@
 		</div>
 
 		<div class="w3-row w3-hide-large">
-			<div class="w3-half w3-padding my-box-card">
+			<div class="w3-half w3-padding my-box-card g-opacity">
 				<div class="w3-card w3-display-container w3-round-large">
 					<img src="asset/materials.jpg" alt="materials" class="my-image w3-round-large">
 					<span class="w3-display-bottomleft w3-margin w3-padding w3-white w3-round-large"><i class="fas fa-sun"></i> Materials</span>
 				</div>
 			</div>
-			<div class="w3-half w3-padding my-box-card w3-round-medium">
+			<div class="w3-half w3-padding my-box-card w3-round-medium g-opacity">
 				<div class="w3-card w3-display-container w3-round-large">
 					<img src="asset/building.jpg" alt="materials" class="my-image w3-round-large">
 					<span class="w3-display-bottomleft w3-margin w3-padding w3-white w3-round-large"><i class="fas fa-walking"></i> Building</span>
 				</div>
 			</div>
 			<div class="w3-half w3-padding my-box-c
-			 w3-round-medium">
+			 w3-round-medium g-opacity">
 				<div class="w3-card w3-display-container w3-round-large">
 					<img src="asset/interior.jpg" alt="materials" class="my-image w3-round-large">
 					<span class="w3-display-bottomleft w3-margin w3-padding w3-white w3-round-large"><i class="fas fa-tree"></i> Interior</span>
 				</div>
 			</div>
-			<div class="w3-half w3-padding my-box-card			 w3-round-medium">
+			<div class="w3-half w3-padding my-box-card			 w3-round-medium g-opacity">
 				<div class="w3-card w3-display-container w3-round-large">
 					<img src="asset/road.jpg" alt="materials" class="my-image w3-round-large">
 					<span class="w3-display-bottomleft w3-margin w3-padding w3-white w3-round-large"><i class="fas fa-snowflake"></i> Road</span>
 				</div>
 			</div>
-			<div class="w3-half w3-padding my-box-card w3-round-medium">
+			<div class="w3-half w3-padding my-box-card w3-round-medium g-opacity">
 				<div class="w3-card w3-display-container w3-round-large">
 					<img src="asset/warehouse.jpg" alt="materials" class="my-image w3-round-large">
 					<span class="w3-display-bottomleft w3-margin w3-padding w3-white w3-round-large"><i class="fas fa-tint"></i> Warehouse</span>
@@ -186,11 +206,8 @@
 		</div>
 	</div>
 
-	<div id="projectsHead" class="w3-white my-page-header">
-		<div class="w3-container w3-padding-large w3-card my-grey w3-round-large" style="margin-top: 100px; z-index: 100;">
-			<span class="my-text-royalBlue"><i class="fas fa-stream"></i></span>
-			<span class="my-text-royalBlue"><b>PROJECTS</b></span>
-		</div>
+	<div id="projectsHead" class="my-page-header w3-card">
+		<h2><i class="fas fa-check-circle"></i> <b>PROJECTS</b></h2>
 	</div>
 	<div id="projects" class="w3-hide-small">
 		<div class="app">
@@ -318,14 +335,21 @@
 			    </ul>
 			</div>
 
-			<div>
-				Address
-			</div>
-			<div>
-				Phone No.
-			</div>
-			<div>
-				E-mail
+			<div id="contactSecond">
+				<div class="w3-padding">
+					<h4>Let's get in touch..</h4>
+					<img src="asset/contact-pic.svg" alt="contact pic">
+					<h3>Ashutosh Singh</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eveniet temporibus harum quidem hic, dolore. Ipsam vero error nulla a, totam nam provident dignissimos perspiciatis, officiis, eaque nesciunt adipisci rerum.</p>
+				</div>
+				<div class="w3-padding">
+					<h2>Ideal Fab & Constructions</h2>
+					<div>
+						<address>Address: 489, 9, Near Disposal, Shyam Sunder Rawat Block, Nandan Rawat Block, Parvatiya Colony, Sector 52, Faridabad, Haryana-121001</address>
+						<p>Phone No.: +91-8527429785</p>
+						<p>E-mail: mail@gmail.com</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -341,7 +365,7 @@
     </footer>
     <div id="pp" class="w3-modal">
       <div class="w3-modal-content w3-animate-zoom">
-        <header class="w3-container my-footer"> 
+        <header class="w3-container my-footer w3-padding"> 
           <span onclick="document.getElementById('pp').style.display='none'" class="w3-button w3-display-topright"><i class="fas fa-times-circle" aria-hidden="true"></i></span>
           <h4>Privacy Policy</h4>
         </header>
@@ -354,7 +378,7 @@
             <li>The social links redirect to their respective sites.</li>
           </ul>
         </div>
-        <footer class="w3-container">
+        <footer class="w3-container my-footer w3-padding">
           <p>Thanks for reading!</p>
         </footer>
       </div>
@@ -365,6 +389,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/video.js"></script>
 	<script src="js/script2.js"></script>

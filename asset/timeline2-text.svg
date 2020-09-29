@@ -19,6 +19,16 @@
      id="defs263">
     <linearGradient
        inkscape:collect="always"
+       xlink:href="#linearGradient914"
+       id="linearGradient916"
+       x1="-92.984283"
+       y1="372.05222"
+       x2="53.15976"
+       y2="372.05222"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3481917,0.75538253,-131.549)" />
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient914">
       <stop
          style="stop-color:#f2c94c;stop-opacity:1"
@@ -29,15 +39,6 @@
          offset="1"
          id="stop912" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient914"
-       id="linearGradient916"
-       x1="-92.984283"
-       y1="372.05222"
-       x2="53.15976"
-       y2="372.05222"
-       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -46,9 +47,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9468415"
-     inkscape:cx="388.58263"
-     inkscape:cy="218.10445"
+     inkscape:zoom="0.98602573"
+     inkscape:cx="382.30139"
+     inkscape:cy="372.55632"
      inkscape:document-units="mm"
      inkscape:current-layer="g1293"
      inkscape:document-rotation="0"
@@ -71,7 +72,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -106,23 +107,14 @@
            style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.6605px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';text-align:end;text-anchor:end;fill:#ffffff;stroke-width:0.22563"
            id="tspan28">COMPANY</tspan></text>
       <rect
-         style="fill:url(#linearGradient916);fill-opacity:1;stroke:none;stroke-width:1.88703;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.994333"
+         style="fill:url(#linearGradient916);fill-opacity:1;stroke:none;stroke-width:2.19106;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.994333"
          id="rect1126"
-         width="146.14404"
-         height="5.7964134"
-         x="-92.984283"
-         y="369.15402" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="-152.02643"
-         y="394.14301"
-         id="text297-7"><tspan
-           sodipodi:role="line"
-           x="-152.02643"
-           y="394.14301"
-           style="stroke-width:0.264583"
-           id="tspan299-5">to right, #F2C94C, #F2994A)</tspan></text>
+         width="146.14406"
+         height="7.8146763"
+         x="-92.228912"
+         y="366.14139"
+         ry="3.9073381"
+         rx="0" />
     </g>
   </g>
 </svg>

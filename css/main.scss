@@ -26,13 +26,11 @@ background: linear-gradient(to right, #F2C94C, #F2994A);
 .my-text-royalBlue, .my-hover-text-royalBlue:hover {color: rgb(77,118,253)!important; border-color:rgb(77,118,253)!important;}
 .my-grey, .my-hover-grey:hover { background-color: rgb(241,242,247)!important; }
 .my-page-header{
-	@include flexbox;
 	height: 16vh;
+	@include flexbox;
+	color: white;
 	text-align: center;
-	div {
-		min-width: 50%;
-		overflow: hidden;
-	}
+	background: linear-gradient(45deg, #9796f0, #fbc7d4);
 }
 .my-gold-gradient {
 	color: #fff;
@@ -46,7 +44,6 @@ background: linear-gradient(to right, #F2C94C, #F2994A);
 	color: -webkit-linear-gradient(to right, #F2C94C, #F2994A); 
 	color: linear-gradient(to right, #F2C94C, #F2994A);
 }
-.my
 .my-footer {color: white!important; background-color: #292929!important;}
 
 *{ box-sizing: border-box; 
@@ -55,17 +52,16 @@ background: linear-gradient(to right, #F2C94C, #F2994A);
 }
 html {
 	scroll-behavior: smooth;
-	margin:0;
-	padding:0;
 }
 body{
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-weight:500;
 }
 h1,h2,h3,h4,h5,h6{font-weight:750;}
-h1{font-size:3rem;}
+h1{font-size:3rem; font-family: serif;} 
 h2{font-size:2rem;font-family: serif;}
+h3,h4,h5,h6 { font-family: 'Roboto', sans-serif; }
 
 #first{
 	@include flexbox;
@@ -154,9 +150,63 @@ video {display: block;}
 
 #timeline{
 	@include page;
+	position: relative;
+	text-align: center;
 	.panel {
-		@include flexbox;
-		flex-direction: column;
+			display: flex;
+			flex-wrap: wrap;
+			.panel-element{
+				width: 50%;
+				@include flexbox;
+				> * {
+					width: 70%;
+				}
+			}
+			.panel-element-last{
+				width: 100%;
+				@include flexbox(center, flex-end);
+				> div{
+					width: 70%;
+					border-radius: 20px 20px 0px 0px;
+					text-overflow: ellipsis;
+				}
+			}
+		}
+	#app
+	{
+	    display: none;
+	    position: absolute;
+	    top: 0;
+	    left: 50%;
+	    width: 180px;
+	    height: 20px;
+	    margin-left: -90px;
+	    margin-top: 25px;
+	    overflow: hidden;
+	    z-index:1;
+	}
+
+	.button
+	{
+	    width: 20px;
+	    height: 20px;
+	    float: left;
+	    margin-right: 20px;
+	    background-color: #fff;
+	    border-radius: 20px;
+	    cursor: pointer;
+	    transition: 0.3s ease width;
+	}
+
+	.button:last-child
+	{
+	    margin-right: 0;
+	}
+
+	.button.active
+	{
+	    width: 60px;
+	    cursor: auto;
 	}
 }
 
@@ -169,7 +219,7 @@ video {display: block;}
 	background-size: cover;
 }
 .my-box-card{
-	@include page(100%,100%);
+	@include page(50%,50%);
 }
 #contact {
 	@include flexbox;
@@ -183,17 +233,47 @@ video {display: block;}
 		width:90%;
 		overflow: hidden;
 	}
-}
-
-
-@media only screen and (min-width: 600px) {
-	.my-box-card {
-		@include page(50%,50%);
-	}
-	#timeline{
-		.panel {
-			flex-direction: row;
+	#contactSecond{
+		@include flexbox;
+		flex-direction: row;
+		height: 75vh;
+		text-align: center;
+		div:first-child{
+			border-right: solid;
+			border-color: rgba(255,0,60,0.5);
+		}
+		div {
+			@include flexbox(space-evenly, center);
+			width: 50%;
+			height: 100%;
+			flex-direction: column;
 		}
 	}
-	#top_Links {display: inline;}
+}
+
+#top_Links {display: inline;}
+
+
+@media only screen and (max-width: 600px) {
+	body {
+		font-size: 16px;
+	}
+	#timeline {
+		.panel{
+			flex-direction: column;
+			justify-content: space-between;
+			.panel-element{
+				width: 100%;
+				padding: 10px;
+			}
+			.panel-element-last{
+				> div {
+					width: 90%;
+				}
+			}
+		}
+	}
+	.my-box-card {
+		@include page(100%,100%);
+	}	
 }

@@ -21,15 +21,13 @@ background: linear-gradient(to right, #F2C94C, #F2994A);
 }
 
 .my-page-header {
+  height: 16vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 16vh;
+  color: white;
   text-align: center;
-}
-.my-page-header div {
-  min-width: 50%;
-  overflow: hidden;
+  background: linear-gradient(45deg, #9796f0, #fbc7d4);
 }
 
 .my-gold-gradient {
@@ -46,7 +44,7 @@ background: linear-gradient(to right, #F2C94C, #F2994A);
   color: linear-gradient(to right, #F2C94C, #F2994A);
 }
 
-.my .my-footer {
+.my-footer {
   color: white !important;
   background-color: #292929 !important;
 }
@@ -59,12 +57,10 @@ background: linear-gradient(to right, #F2C94C, #F2994A);
 
 html {
   scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
 }
@@ -75,11 +71,16 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3rem;
+  font-family: serif;
 }
 
 h2 {
   font-size: 2rem;
   font-family: serif;
+}
+
+h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
 }
 
 #first {
@@ -199,12 +200,61 @@ video {
 #timeline {
   min-width: 100vw;
   min-height: 100vh;
+  position: relative;
+  text-align: center;
 }
 #timeline .panel {
   display: flex;
+  flex-wrap: wrap;
+}
+#timeline .panel .panel-element {
+  width: 50%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+}
+#timeline .panel .panel-element > * {
+  width: 70%;
+}
+#timeline .panel .panel-element-last {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#timeline .panel .panel-element-last > div {
+  width: 70%;
+  border-radius: 20px 20px 0px 0px;
+  text-overflow: ellipsis;
+}
+#timeline #app {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 180px;
+  height: 20px;
+  margin-left: -90px;
+  margin-top: 25px;
+  overflow: hidden;
+  z-index: 1;
+}
+#timeline .button {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease width;
+}
+#timeline .button:last-child {
+  margin-right: 0;
+}
+#timeline .button.active {
+  width: 60px;
+  cursor: auto;
 }
 
 #service {
@@ -220,8 +270,8 @@ video {
 }
 
 .my-box-card {
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 50%;
+  min-height: 50%;
 }
 
 #contact {
@@ -242,19 +292,51 @@ video {
   width: 90%;
   overflow: hidden;
 }
+#contact #contactSecond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 75vh;
+  text-align: center;
+}
+#contact #contactSecond div:first-child {
+  border-right: solid;
+  border-color: rgba(255, 0, 60, 0.5);
+}
+#contact #contactSecond div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+}
 
-@media only screen and (min-width: 600px) {
-  .my-box-card {
-    min-width: 50%;
-    min-height: 50%;
+#top_Links {
+  display: inline;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
   }
 
   #timeline .panel {
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #timeline .panel .panel-element {
+    width: 100%;
+    padding: 10px;
+  }
+  #timeline .panel .panel-element-last > div {
+    width: 90%;
   }
 
-  #top_Links {
-    display: inline;
+  .my-box-card {
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 
