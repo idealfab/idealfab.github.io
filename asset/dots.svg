@@ -35,8 +35,8 @@
        id="linearGradient916"
        x1="-92.984283"
        y1="372.05222"
-       x2="53.15976"
-       y2="372.05222"
+       x2="53.187611"
+       y2="372.07877"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.94284627,0,0,1,-3.1977315,-1.0583333)" />
   </defs>
@@ -47,9 +47,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9468415"
-     inkscape:cx="496.04582"
-     inkscape:cy="227.5413"
+     inkscape:zoom="1.7812566"
+     inkscape:cx="341.12111"
+     inkscape:cy="263.12353"
      inkscape:document-units="mm"
      inkscape:current-layer="g1293"
      inkscape:document-rotation="0"
@@ -118,7 +118,8 @@
          height="5.7964134"
          x="-90.867615"
          y="368.09567"
-         ry="2.8982067" />
+         ry="0"
+         rx="0" />
     </g>
   </g>
 </svg>

@@ -1,18 +1,25 @@
 const timeline = gsap.timeline();
-timeline.from("#first > img, #first > a",{opacity:0,y:-100, duration:1, ease: "none"});
+timeline.from("#first > *",{opacity:0,y:-100, duration:1, ease: "none"});
 timeline.from("#vidpause",{x:-200,duration:0.2, ease: Power3.easeInOut});
 timeline.from(".gfromRight",{x:200, duration:1, stagger:0.1, ease: Power3.easeInOut},"-=0.2");
 
-gsap.from(".g-opacity", 1, {opacity:0 , y:-100, ease: Power3.easeInOut, scrollTrigger: ".g-opacity"});
-gsap.from(".g-fromLeft", 1, {opacity:0, x:-200, ease: Power3.easeInOut, scrollTrigger: ".g-fromLeft"});
-gsap.from(".g-fromRight", 1, {opacity:0, x:200, ease: Power3.easeInOut, scrollTrigger: ".g-fromRight"});
-
 /*var controller = new ScrollMagic.Controller();
 
-new ScrollMagic.Scene({
-	duration: 100;
-	offset: 50;
-}).setPin('#timeline').addTo(controller);*/
+var tween = new TimelineMax()
+					.from(".gsap-anim", 1.5, {rotationY: 180, scale: 0.7, opacity: 0})
+					.to(".gsap-anim", 1.5, {rotationY: 180, scale: 0.7, opacity: 0, delay: 7});
+
+
+				// build scene
+				new ScrollMagic.Scene({
+									triggerElement: "#timeline",
+									triggerHook: "onEnter", // show, when scrolled 10% into view
+									duration: "100%", // use full viewport
+									offset: 50 // move trigger to center of element
+								})
+								.setTween(tween)
+								.addIndicators({name: "GSAP"}) // add indicators (requires plugin)
+								.addTo(controller);*/
 
 $(function()
 {
