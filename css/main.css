@@ -83,6 +83,10 @@ h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
 
+.social-icons {
+  font-size: 20px;
+}
+
 #first {
   display: flex;
   justify-content: center;
@@ -92,12 +96,29 @@ h3, h4, h5, h6 {
   flex-direction: column;
   position: relative;
 }
+#first .social-icons a:before {
+  background: -webkit-linear-gradient(45deg, #F2C94C, #F2994A);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #F2C94C, #F2994A);
+}
+#first .social-icons a:hover i {
+  color: #edcd21;
+  background: -webkit-linear-gradient(45deg, #F2C94C, #F2994A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 #first img {
   max-height: 70vh;
 }
 #first > a {
   position: absolute;
   bottom: 0;
+}
+#first #call_Button {
+  position: absolute;
+  width: unset;
+  top: 0;
+  right: 0;
 }
 #first nav {
   width: 100px;
@@ -134,17 +155,6 @@ h3, h4, h5, h6 {
 #first nav .social-container * {
   margin: 0;
   padding: 0;
-}
-#first nav .social-container .social-icons a:before {
-  background: -webkit-linear-gradient(45deg, #F2C94C, #F2994A);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(45deg, #F2C94C, #F2994A);
-}
-#first nav .social-container .social-icons a:hover i {
-  color: #edcd21;
-  background: -webkit-linear-gradient(45deg, #F2C94C, #F2994A);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 /* bg video */
@@ -318,6 +328,23 @@ video {
 }
 
 @media only screen and (max-width: 600px) {
+  #contact {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #contact #contactSecond {
+    flex-direction: column;
+    height: unset;
+  }
+  #contact #contactSecond div:first-child {
+    border-right: none;
+    border-bottom: solid;
+    border-color: rgba(255, 0, 60, 0.5);
+  }
+  #contact #contactSecond div {
+    width: 90%;
+  }
+
   body {
     font-size: 16px;
   }

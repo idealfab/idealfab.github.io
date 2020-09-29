@@ -4,12 +4,36 @@
 		"selected_items":
 		[
 			[
-				"w3-lef",
-				"w3-left-align\t(w3.css)"
+				"fon",
+				"font-size\tabc"
+			],
+			[
+				"w3-hid",
+				"w3-hide-large\tabc"
+			],
+			[
+				"w3-hide",
+				"w3-hide-medium\tabc"
 			],
 			[
 				"rg",
 				"rgba()\tborder-color"
+			],
+			[
+				"bor",
+				"border-color\tabc"
+			],
+			[
+				"border-r",
+				"border-right\tabc"
+			],
+			[
+				"bord",
+				"border\tproperty"
+			],
+			[
+				"w3-lef",
+				"w3-left-align\t(w3.css)"
 			],
 			[
 				"sa",
@@ -17,10 +41,6 @@
 			],
 			[
 				"font",
-				"font-family\tabc"
-			],
-			[
-				"fon",
 				"font-family\tabc"
 			],
 			[
@@ -98,10 +118,6 @@
 			[
 				"fir",
 				"first-child\t(w3.css)"
-			],
-			[
-				"bord",
-				"border-radius\tabc"
 			],
 			[
 				"flex",
@@ -240,10 +256,6 @@
 				"social-icons\t(index.html)"
 			],
 			[
-				"w3-hid",
-				"w3-hide-small\tabc"
-			],
-			[
 				"w3-rou",
 				"w3-round-xxlarge\tabc"
 			],
@@ -278,10 +290,6 @@
 			[
 				"w3-r",
 				"w3-round-medium\tabc"
-			],
-			[
-				"w3-hide",
-				"w3-hide-large\tabc"
 			],
 			[
 				"w3-row",
@@ -506,14 +514,6 @@
 			[
 				"s",
 				"span\tabc"
-			],
-			[
-				"w3-bar",
-				"w3-bar-item\tabc"
-			],
-			[
-				"background",
-				"background-size\tabc"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 16812,
+				"buffer_size": 17211,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -532,7 +532,7 @@
 			"file": "css/main.scss",
 			"settings":
 			{
-				"buffer_size": 5653,
+				"buffer_size": 6000,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -674,6 +674,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"social-icons",
 			"project",
 			"}\n",
 			"#timeline2",
@@ -716,15 +717,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16812,
+						"buffer_size": 17211,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13800,
-								13800
+								2534,
+								2534
 							]
 						],
 						"settings":
@@ -733,7 +734,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8424.0,
+						"translation.y": 1133.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -745,15 +746,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5653,
+						"buffer_size": 6000,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5155,
-								5155
+								2475,
+								2475
 							]
 						],
 						"settings":
@@ -761,7 +762,7 @@
 							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3703.0,
+						"translation.y": 1183.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -857,7 +858,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -902,7 +903,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 54.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
