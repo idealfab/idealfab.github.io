@@ -16,7 +16,7 @@ gsap.from("#timeline_2 .g-opacity", {scrollTrigger: { trigger: "#timeline_2", st
 gsap.from("#service .g-opacity", {scrollTrigger: {trigger: "#service", start: "0px 80%"}, opacity: 0, duration: 2, ease: "power1.out"});
 gsap.from("#service .g-card", {scrollTrigger: {trigger: "#service", start: "0px 80%"}, opacity: 0, duration: 2, y: 200, ease: "power1.out", stagger: 0.3});
 
-gsap.from("#projectsHead .g-opacity", {scrollTrigger: {trigger: "#projectsHead", start: "0px 80%"}, opacity: 0, duration: 2, ease: "power1.out"});
+gsap.from("#projectsHead", {scrollTrigger: {trigger: "#projectsHead", start: "0px 80%"}, opacity: 0, duration: 2, ease: "power1.out"});
 gsap.from("#service2 .g-card", {scrollTrigger: {trigger: "#service2", start: "0px 80%"}, opacity: 0, duration: 2, y: 200, ease: "power1.out", stagger: 0.3});
 
 gsap.from("#contactMain .g-opacity", {scrollTrigger: {trigger: "#contactMain", start: "0px 80%"}, opacity: 0, duration: 2, ease: "power1.out"});
