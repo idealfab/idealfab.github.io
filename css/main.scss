@@ -151,8 +151,9 @@ video {display: block;}
 }
 #vidpause {
 	position: absolute;
-	top: 0;
+	bottom: 0;
 	left:0;
+	z-index: 101;
 }
 #vidpause:focus{outline:none;}
 #bgvid {transition: 1s opacity;}
