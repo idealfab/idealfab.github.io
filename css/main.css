@@ -83,6 +83,28 @@ h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
 
+#menu-button {
+  position: fixed;
+  margin: 10px;
+  z-index: 104;
+}
+#menu-button:hover i {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: ease 0.5s;
+}
+
+#mySidebar {
+  display: none;
+  z-index: 105;
+}
+
 .social-icons {
   font-size: 20px;
 }
@@ -119,6 +141,12 @@ h3, h4, h5, h6 {
   width: unset;
   top: 0;
   right: 0;
+}
+#first #call_Button .social-icons {
+  margin: 10px;
+}
+#first #call_Button .social-icons li {
+  margin: 0;
 }
 #first nav {
   width: 100px;

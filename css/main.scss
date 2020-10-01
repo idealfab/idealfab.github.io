@@ -63,6 +63,22 @@ h1{font-size:3rem; font-family: serif;}
 h2{font-size:2rem;font-family: serif;}
 h3,h4,h5,h6 { font-family: 'Roboto', sans-serif; }
 
+#menu-button{
+	position: fixed;
+	margin: 10px;
+	z-index: 104;
+	&:hover {
+		i{
+			@include transform(rotate(45deg));
+			@include transform(scale(1.2));
+			@include my-transition;
+		}
+	}
+}
+#mySidebar{
+	 display:none;
+	 z-index: 105;
+}
 
 .social-icons{
 	font-size: 20px;
@@ -96,6 +112,12 @@ h3,h4,h5,h6 { font-family: 'Roboto', sans-serif; }
 		width: unset;
 		top: 0;
 		right: 0;
+		.social-icons {
+			margin: 10px;
+			li{
+				margin: 0;
+			}
+		}
 	}
 	nav{
 		width: 100px;

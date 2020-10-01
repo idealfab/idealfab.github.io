@@ -1,7 +1,16 @@
 gsap.registerPlugin(ScrollTrigger);
 
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
 const timeline = gsap.timeline();
-timeline.from("#first > *",{opacity:0,y:-100, duration:1, ease: Power3.easeInOut});
+timeline.from("#menu-button", {opacity:0, duration:1, y:-100, ease: Power3.easeInOut});
+timeline.from("#first > *",{opacity:0,y:-100, duration:1, ease: Power3.easeInOut}, "-=1");
 timeline.from("#vidpause",{x:-200,duration:0.2, ease: Power3.easeInOut});
 timeline.from(".gfromRight",{x:200, duration:1, stagger:0.1, ease: Power3.easeInOut},"-=0.2");
 

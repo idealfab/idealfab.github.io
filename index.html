@@ -16,44 +16,20 @@
 	<link rel="stylesheet" href="css/style2.css">
 	<link rel="stylesheet" href="css/style3.css">
 	<link rel="stylesheet" href="css/style5.css">
-	<link rel="stylesheet" href="css/style6.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body><!--rgb(237,205,33)-->
 	
-	<div id="container">
-	  <span class="menu-trigger">
-	    <i class="menu-trigger-bar top"></i>
-	    <i class="menu-trigger-bar middle"></i>
-	    <i class="menu-trigger-bar bottom"></i>
-	  </span>
-	  <span class="close-trigger">
-	    <i class="close-trigger-bar left"></i>
-	    <i class="close-trigger-bar right"></i>
-	  </span>
-	  <div class="inner-container">
-	      <i class="menu-bg top"></i>
-	      <i class="menu-bg middle"></i>
-	      <i class="menu-bg bottom"></i>
-	    <div class="menu-container">
-	      <ul class="menu">
-	        <li>
-	          <a href="#first">Home</a>
-	        </li>
-	        <li>
-	          <a href="#service">Services</a>
-	        </li>
-	        <li>
-	          <a href="#projectsHead">Projects</a>
-	        </li>
-	        <li>
-	          <a href="#contact">ContactUs</a>
-	        </li>
-	      </ul>
-	    </div>
-	  </div>
+	<div class="w3-sidebar w3-bar-block w3-border-right w3-animate-left w3-card" id="mySidebar">
+	  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+	  <a href="#first" class="w3-bar-item w3-button">HOME</a>
+	  <a href="#service" class="w3-bar-item w3-button">SERVICES</a>
+	  <a href="#projectsHead" class="w3-bar-item w3-button">PROJECTS</a>
+	  <a href="#contact" class="w3-bar-item w3-button">CONTACT US</a>
 	</div>
+
+    <button id="menu-button" class="w3-button my-gold-gradient w3-xlarge w3-round-large" onclick="w3_open()"><i class="fas fa-compass"></i></button>
 	
 	<section id="first" class="w3-container">
 		<!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
@@ -432,7 +408,6 @@
 	<script src="js/video.js"></script>
 	<script src="js/script2.js"></script>
 	<script src="js/script5.js"></script>
-	<script src="js/script6.js"></script>
 	<script src="js/my.js"></script>
 </body>
 </html>
