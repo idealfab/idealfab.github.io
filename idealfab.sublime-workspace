@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"page",
+				"page-header-color\tabc"
+			],
+			[
 				"men",
 				"menu-button\t(index.html)"
 			],
@@ -510,10 +514,6 @@
 			[
 				"my-",
 				"my-hover-text-gold\tabc"
-			],
-			[
-				"rgba",
-				"rgba()\tbackground-color"
 			]
 		]
 	},
@@ -532,7 +532,7 @@
 			"file": "css/main.scss",
 			"settings":
 			{
-				"buffer_size": 6320,
+				"buffer_size": 6627,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -541,7 +541,7 @@
 			"file": "js/my.js",
 			"settings":
 			{
-				"buffer_size": 2913,
+				"buffer_size": 2939,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -652,7 +652,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -710,7 +710,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -739,7 +739,7 @@
 						"translation.y": 156.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -748,15 +748,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6320,
+						"buffer_size": 6627,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2839,
-								2839
+								1421,
+								1421
 							]
 						],
 						"settings":
@@ -764,10 +764,10 @@
 							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1574.0,
+						"translation.y": 255.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -776,26 +776,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2913,
+						"buffer_size": 2939,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								424,
-								424
+								873,
+								873
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 102.0,
+						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{

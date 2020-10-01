@@ -20,6 +20,11 @@ background: linear-gradient(to right, #F2C94C, #F2994A);
 	min-width: $width;
 	min-height: $height;
 }
+@mixin page-header-color {
+	background: rgb(242,201,76);
+	background: -webkit-linear-gradient(90deg, rgba(242,201,76,1) 0%, rgba(242,153,64,1) 20%, rgba(242,153,64,1) 80%, rgba(242,201,76,1) 100%);
+	background: linear-gradient(90deg, rgba(242,201,76,1) 0%, rgba(242,153,64,1) 20%, rgba(242,153,64,1) 80%, rgba(242,201,76,1) 100%);
+}
 
 .my-gold, .my-hover-gold:hover { background-color: rgb(237,205,33)!important; color: black!important; }
 .my-text-gold, .my-hover-text-gold:hover {color: rgb(237,205,33)!important;}
@@ -30,7 +35,7 @@ background: linear-gradient(to right, #F2C94C, #F2994A);
 	@include flexbox;
 	color: white;
 	text-align: center;
-	background: linear-gradient(45deg, #9796f0, #fbc7d4);
+	@include page-header-color;
 }
 .my-gold-gradient {
 	color: #fff;

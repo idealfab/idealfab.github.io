@@ -27,7 +27,9 @@ background: linear-gradient(to right, #F2C94C, #F2994A);
   align-items: center;
   color: white;
   text-align: center;
-  background: linear-gradient(45deg, #9796f0, #fbc7d4);
+  background: #f2c94c;
+  background: -webkit-linear-gradient(90deg, #f2c94c 0%, #f29940 20%, #f29940 80%, #f2c94c 100%);
+  background: linear-gradient(90deg, #f2c94c 0%, #f29940 20%, #f29940 80%, #f2c94c 100%);
 }
 
 .my-gold-gradient {
